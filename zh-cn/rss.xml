@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Damon Chan 的博客</title>
+        <link>https://hkvim.com/zh-cn/</link>
+        <description>I love Programming, writing, and sharing interesting ideas. I believe only the ideas that we actually live are of any value.</description>
+        <generator>Hugo 0.74.3 https://gohugo.io/</generator>
+        
+            <language>en</language>
+        
+        
+            <managingEditor>elecming@gmail.com (Damon Chan)</managingEditor>
+        
+        
+            <webMaster>elecming@gmail.com (Damon Chan)</webMaster>
+        
+        
+            <copyright>[CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)</copyright>
+        
+        <lastBuildDate>Thu, 11 Feb 2021 23:00:45 &#43;0800</lastBuildDate>
+        
+            <atom:link rel="self" type="application/rss&#43;xml" href="https://hkvim.com/zh-cn/rss.xml" />
+        
+        
+    </channel>
+</rss>
