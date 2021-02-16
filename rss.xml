@@ -23,7 +23,7 @@
         
             <copyright>[CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)</copyright>
         
-        <lastBuildDate>Thu, 11 Feb 2021 23:00:44 &#43;0800</lastBuildDate>
+        <lastBuildDate>Tue, 16 Feb 2021 10:41:59 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://hkvim.com/rss.xml" />
         
@@ -521,9 +521,11 @@ sh -c &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;k
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;ln -s /mnt/c/Windows/Fonts ~/.fonts
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# ln -s /mnt/c/Windows/Fonts ~/.fonts&lt;/span&gt;
+cp -r /mnt/c/Windows/Fonts ~/.fonts &lt;span class=&#34;c1&#34;&gt;# for best performance&lt;/span&gt;
 fc-cache -fv
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
