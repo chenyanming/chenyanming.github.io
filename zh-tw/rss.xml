@@ -10,9 +10,9 @@
         <title>Damon Chan 的記事</title>
         <link>https://elecming.com/zh-tw/</link>
         <description>I love Programming, writing, and sharing interesting ideas. I believe only the ideas that we actually live are of any value.</description>
-        <generator>Hugo 0.92.2 https://gohugo.io/</generator>
+        <generator>Hugo 0.142.0 https://gohugo.io/</generator>
         
-            <language>en</language>
+            <language>zh-tw</language>
         
         
             <managingEditor>elecming@gmail.com (Damon Chan)</managingEditor>
@@ -21,9 +21,9 @@
             <webMaster>elecming@gmail.com (Damon Chan)</webMaster>
         
         
-            <copyright>[CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)</copyright>
+            <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
         
-        <lastBuildDate>Fri, 24 Jan 2025 19:55:05 &#43;0900</lastBuildDate>
+        <lastBuildDate>Fri, 24 Jan 2025 22:47:37 &#43;0900</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://elecming.com/zh-tw/rss.xml" />
         

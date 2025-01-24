@@ -21,7 +21,7 @@
                 />
   </url><url>
     <loc>https://elecming.com/</loc>
-    <lastmod>2020-11-08T16:46:46+09:00</lastmod>
+    <lastmod>2025-01-24T20:07:33+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
@@ -48,7 +48,7 @@
     <lastmod>2020-10-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://elecming.com/post/</loc>
-    <lastmod>2020-10-18T15:39:05+09:00</lastmod>
+    <lastmod>2025-01-24T20:07:33+09:00</lastmod>
   </url><url>
     <loc>https://elecming.com/tags/system/</loc>
     <lastmod>2020-10-11T00:00:00+00:00</lastmod>
@@ -78,13 +78,10 @@
     <lastmod>2020-09-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://elecming.com/windows-setup/windows-setup/</loc>
-    <lastmod>2020-10-18T12:59:54+09:00</lastmod>
+    <lastmod>2025-01-24T20:07:33+09:00</lastmod>
   </url><url>
     <loc>https://elecming.com/tags/windows/</loc>
     <lastmod>2020-09-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://elecming.com/windows-setup/</loc>
-    <lastmod>2020-10-18T12:59:54+09:00</lastmod>
   </url><url>
     <loc>https://elecming.com/tags/wsl2/</loc>
     <lastmod>2020-09-19T00:00:00+00:00</lastmod>
@@ -93,78 +90,81 @@
     <lastmod>2020-05-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://elecming.com/20200419195645-shrface_plus/</loc>
-    <lastmod>2020-10-18T15:39:39+09:00</lastmod>
+    <lastmod>2025-01-24T20:07:33+09:00</lastmod>
   </url><url>
     <loc>https://elecming.com/post/20200419195645-shrface_plus/</loc>
     <lastmod>2020-04-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://elecming.com/20200419193603-shrface_%E8%AE%A9eww_nov_mu4e%E6%8B%A5%E6%9C%89org%E7%9A%84%E9%98%85%E8%AF%BB%E4%BD%93%E9%AA%8C/</loc>
-    <lastmod>2020-10-18T15:39:49+09:00</lastmod>
+    <lastmod>2025-01-24T20:07:33+09:00</lastmod>
   </url><url>
     <loc>https://elecming.com/post/20200419193603-shrface_%E8%AE%A9eww_nov_mu4e%E6%8B%A5%E6%9C%89org%E7%9A%84%E9%98%85%E8%AF%BB%E4%BD%93%E9%AA%8C/</loc>
     <lastmod>2020-04-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://elecming.com/raspberrypi/references/</loc>
-    <lastmod>2020-10-13T13:14:56+09:00</lastmod>
+    <lastmod>2025-01-24T20:07:33+09:00</lastmod>
   </url><url>
     <loc>https://elecming.com/true_color_windows_terminal/true_color_windows_terminal/</loc>
-    <lastmod>2020-11-08T16:46:46+09:00</lastmod>
+    <lastmod>2025-01-24T20:07:33+09:00</lastmod>
   </url><url>
     <loc>https://elecming.com/windows-setup-additional/</loc>
-    <lastmod>2020-11-01T19:15:43+09:00</lastmod>
+    <lastmod>2025-01-24T20:07:33+09:00</lastmod>
+  </url><url>
+    <loc>https://elecming.com/windows-setup/</loc>
+    <lastmod>2025-01-24T20:07:33+09:00</lastmod>
   </url><url>
     <loc>https://elecming.com/about/</loc>
-    <lastmod>2021-01-08T14:25:42+09:00</lastmod>
+    <lastmod>2025-01-24T20:07:33+09:00</lastmod>
   </url><url>
     <loc>https://elecming.com/post/about/</loc>
-    <lastmod>2020-10-18T15:39:05+09:00</lastmod>
+    <lastmod>2025-01-24T20:07:33+09:00</lastmod>
   </url><url>
     <loc>https://elecming.com/beancount/</loc>
-    <lastmod>2020-10-31T23:35:54+09:00</lastmod>
+    <lastmod>2025-01-24T20:07:33+09:00</lastmod>
   </url><url>
     <loc>https://elecming.com/beancount/beancount/</loc>
-    <lastmod>2020-10-31T23:35:54+09:00</lastmod>
+    <lastmod>2025-01-24T20:07:33+09:00</lastmod>
   </url><url>
     <loc>https://elecming.com/calibredb/</loc>
-    <lastmod>2020-10-18T12:58:21+09:00</lastmod>
+    <lastmod>2025-01-24T20:07:33+09:00</lastmod>
   </url><url>
     <loc>https://elecming.com/20200823-calibredb/</loc>
-    <lastmod>2020-10-18T15:39:58+09:00</lastmod>
+    <lastmod>2025-01-24T20:07:33+09:00</lastmod>
   </url><url>
     <loc>https://elecming.com/embedded_rust/</loc>
-    <lastmod>2020-10-20T09:19:12+09:00</lastmod>
+    <lastmod>2025-01-24T20:07:33+09:00</lastmod>
   </url><url>
     <loc>https://elecming.com/embedded_rust/embedded_rust/</loc>
-    <lastmod>2020-10-20T09:19:12+09:00</lastmod>
+    <lastmod>2025-01-24T20:07:33+09:00</lastmod>
   </url><url>
     <loc>https://elecming.com/raspberrypi/raspberrypi/</loc>
-    <lastmod>2020-10-13T12:37:11+09:00</lastmod>
+    <lastmod>2025-01-24T20:07:33+09:00</lastmod>
   </url><url>
     <loc>https://elecming.com/calibredb/calibredb/</loc>
-    <lastmod>2020-10-18T12:58:21+09:00</lastmod>
+    <lastmod>2025-01-24T20:07:33+09:00</lastmod>
   </url><url>
     <loc>https://elecming.com/kindle/</loc>
-    <lastmod>2020-10-03T12:09:46+09:00</lastmod>
+    <lastmod>2025-01-24T20:07:33+09:00</lastmod>
   </url><url>
     <loc>https://elecming.com/kindle/kindle/</loc>
-    <lastmod>2020-10-03T12:09:46+09:00</lastmod>
+    <lastmod>2025-01-24T20:07:33+09:00</lastmod>
   </url><url>
     <loc>https://elecming.com/raspberrypi/</loc>
-    <lastmod>2020-10-13T13:14:56+09:00</lastmod>
+    <lastmod>2025-01-24T20:07:33+09:00</lastmod>
   </url><url>
     <loc>https://elecming.com/termux/</loc>
-    <lastmod>2020-10-20T09:10:28+09:00</lastmod>
+    <lastmod>2025-01-24T20:07:33+09:00</lastmod>
   </url><url>
     <loc>https://elecming.com/termux/termux/</loc>
-    <lastmod>2020-10-20T09:10:28+09:00</lastmod>
+    <lastmod>2025-01-24T20:07:33+09:00</lastmod>
   </url><url>
     <loc>https://elecming.com/true_color_windows_terminal/</loc>
-    <lastmod>2020-11-08T16:46:46+09:00</lastmod>
+    <lastmod>2025-01-24T20:07:33+09:00</lastmod>
   </url><url>
     <loc>https://elecming.com/webarchive/</loc>
-    <lastmod>2020-10-20T09:09:37+09:00</lastmod>
+    <lastmod>2025-01-24T20:07:33+09:00</lastmod>
   </url><url>
     <loc>https://elecming.com/webarchive/webarchive/</loc>
-    <lastmod>2020-10-20T09:09:37+09:00</lastmod>
+    <lastmod>2025-01-24T20:07:33+09:00</lastmod>
   </url>
 </urlset>
