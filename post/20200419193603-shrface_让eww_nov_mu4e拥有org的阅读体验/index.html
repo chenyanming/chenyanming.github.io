@@ -22,7 +22,7 @@
     
     
         
-            <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js" defer></script><script src="/js/meme.min.b6721644c46369637b1601111efb77119fc7a1e590849671f685cb0f188c7edc.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js" defer></script><script src="/js/meme.min.adbe9d686ef9e91325626234d08b943679d6fd3fcc2b4e4912329b8afb4549d7.js"></script>
 
         
     
@@ -972,11 +972,11 @@
         
 
         
-            <div id="disqus_thread"></div>
-        
 
         
 
+        
+            <div id="utterances"></div>
         
 
         
@@ -1046,40 +1046,34 @@
     
 
         
+
+        
+
+        
             <script>
     function loadComments() {
-        if (!document.getElementById('disqus_thread')) {
-            return;
-        }
-        if (typeof DISQUS === 'undefined') {
-            const disqus_config = function() {
-                this.page.url = 'https:\/\/elecming.com\/post\/20200419193603-shrface_%E8%AE%A9eww_nov_mu4e%E6%8B%A5%E6%9C%89org%E7%9A%84%E9%98%85%E8%AF%BB%E4%BD%93%E9%AA%8C\/';
-                this.page.identifier = '\/post\/20200419193603-shrface_%E8%AE%A9eww_nov_mu4e%E6%8B%A5%E6%9C%89org%E7%9A%84%E9%98%85%E8%AF%BB%E4%BD%93%E9%AA%8C\/';
-                this.page.title = 'shrface，让 eww, mu4e, nov.el 拥有 org 的阅读体验';
-            };
-            (function() {
-                const d = document, s = d.createElement('script'); s.async = true;
-                s.src = 'https://elecming.disqus.com/embed.js';
-                s.setAttribute('data-timestamp', +new Date());
-                (d.head || d.body).appendChild(s);
-            })();
+        (function() {
+            const utterances = document.getElementById("utterances");
+            if (!utterances) {
+                return;
+            }
+            const script = document.createElement('script');
+            script.src = 'https:\/\/utteranc.es\/client.js';
+            script.async = true;
+            script.crossOrigin = 'anonymous';
+            script.setAttribute('repo', 'chenyanming\/chenyanming.github.io');
+            script.setAttribute('issue-term', 'pathname');
+            const isDark = getCurrentTheme() === 'dark';
+        if (isDark) {
+            script.setAttribute('theme', 'photon-dark');
         } else {
-            DISQUS.reset({
-                reload: true,
-                config: function() {
-                    this.page.url = 'https:\/\/elecming.com\/post\/20200419193603-shrface_%E8%AE%A9eww_nov_mu4e%E6%8B%A5%E6%9C%89org%E7%9A%84%E9%98%85%E8%AF%BB%E4%BD%93%E9%AA%8C\/';
-                    this.page.identifier = '\/post\/20200419193603-shrface_%E8%AE%A9eww_nov_mu4e%E6%8B%A5%E6%9C%89org%E7%9A%84%E9%98%85%E8%AF%BB%E4%BD%93%E9%AA%8C\/';
-                    this.page.title = 'shrface，让 eww, mu4e, nov.el 拥有 org 的阅读体验';
-                }
-            });
+            script.setAttribute('theme', 'github-light');
         }
+            
+            utterances.appendChild(script);
+        })();
     }
 </script>
-
-        
-
-        
-
         
 
         

@@ -22,7 +22,7 @@
     
     
         
-            <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js" defer></script><script src="/zh-tw/js/meme.min.08a8096a657d164ca5928693b83ad4fb6aba3ae7e1f8b8c2c69c19a48992de93.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js" defer></script><script src="/zh-tw/js/meme.min.321710998d287f24cace757b0a7ebf395b5b3a0b8c3904aa17e1b5bac3c485ff.js"></script>
 
         
     
@@ -675,40 +675,34 @@
     
 
         
+
+        
+
+        
             <script>
     function loadComments() {
-        if (!document.getElementById('disqus_thread')) {
-            return;
-        }
-        if (typeof DISQUS === 'undefined') {
-            const disqus_config = function() {
-                this.page.url = 'https:\/\/elecming.com\/zh-tw\/';
-                this.page.identifier = '\/zh-tw\/';
-                this.page.title = 'Damon Chan 的記事';
-            };
-            (function() {
-                const d = document, s = d.createElement('script'); s.async = true;
-                s.src = 'https://elecming.disqus.com/embed.js';
-                s.setAttribute('data-timestamp', +new Date());
-                (d.head || d.body).appendChild(s);
-            })();
+        (function() {
+            const utterances = document.getElementById("utterances");
+            if (!utterances) {
+                return;
+            }
+            const script = document.createElement('script');
+            script.src = 'https:\/\/utteranc.es\/client.js';
+            script.async = true;
+            script.crossOrigin = 'anonymous';
+            script.setAttribute('repo', 'chenyanming\/chenyanming.github.io');
+            script.setAttribute('issue-term', 'pathname');
+            const isDark = getCurrentTheme() === 'dark';
+        if (isDark) {
+            script.setAttribute('theme', 'photon-dark');
         } else {
-            DISQUS.reset({
-                reload: true,
-                config: function() {
-                    this.page.url = 'https:\/\/elecming.com\/zh-tw\/';
-                    this.page.identifier = '\/zh-tw\/';
-                    this.page.title = 'Damon Chan 的記事';
-                }
-            });
+            script.setAttribute('theme', 'github-light');
         }
+            
+            utterances.appendChild(script);
+        })();
     }
 </script>
-
-        
-
-        
-
         
 
         
