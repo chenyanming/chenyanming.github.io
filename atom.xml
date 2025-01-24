@@ -4,27 +4,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Damon Chan&#39;s Blog</title>
     <subtitle type="html">I love Programming, writing, and sharing interesting ideas. I believe only the ideas that we actually live are of any value.</subtitle>
-    <updated>2021-02-16T10:47:14&#43;08:00</updated>
-    <id>https://hkvim.com/</id>
-    <link rel="alternate" type="text/html" href="https://hkvim.com/" />
-    <link rel="self" type="application/atom&#43;xml" href="https://hkvim.com/atom.xml" />
+    <updated>2025-01-24T19:38:22&#43;09:00</updated>
+    <id>https://elecming.com/</id>
+    <link rel="alternate" type="text/html" href="https://elecming.com/" />
+    <link rel="self" type="application/atom&#43;xml" href="https://elecming.com/atom.xml" />
     <author>
             <name>Damon Chan</name>
-            <uri>https://hkvim.com/</uri>
+            <uri>https://elecming.com/</uri>
             
                 <email>elecming@gmail.com</email>
             </author>
     <rights>[CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)</rights>
-    <generator uri="https://gohugo.io/" version="0.74.3">Hugo</generator>
+    <generator uri="https://gohugo.io/" version="0.92.2">Hugo</generator>
         <entry>
             <title type="text">How to build a Personal Document Management System (PDMS) and why you need it</title>
-            <link rel="alternate" type="text/html" href="https://hkvim.com/post/calibredb/" />
-            <id>https://hkvim.com/post/calibredb/</id>
-            <updated>2020-10-11T00:00:00&#43;08:00</updated>
-            <published>2020-10-11T00:00:00&#43;08:00</published>
+            <link rel="alternate" type="text/html" href="https://elecming.com/post/calibredb/" />
+            <id>https://elecming.com/post/calibredb/</id>
+            <updated>2020-10-11T00:00:00&#43;00:00</updated>
+            <published>2020-10-11T00:00:00&#43;00:00</published>
             <author>
                     <name>Damon Chan</name>
-                    <uri>https://hkvim.com/</uri>
+                    <uri>https://elecming.com/</uri>
                     <email>elecming@gmail.com</email>
                     </author>
             <rights>[CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)</rights><summary type="html">My personal experience Evernote I&amp;rsquo;ve spent many years building a lifelong personal library. A couple of years back, the first time I tried to manage my Ebooks is using Evernote. I saved every single document into Evernote, from diaries to notes, from lecture notes to reference books.
@@ -33,8 +33,7 @@ Finally, I found Evernote really sucks on document management. It may be good fo
 File Explorer Then I came back to the old but effective way, using the File Explorer and making all the documents nested inside the well-structured folder structure.
 But wait, the problem is still there, once my documents getting more and more, how can I search them in a second?</summary>
             
-                <content type="html">&lt;figure&gt;
-    &lt;img src=&#34;https://hkvim.com/ox-hugo/mindmap-what-raspberrypi-can-do.jpg&#34;/&gt; 
+                <content type="html">&lt;figure&gt;&lt;img src=&#34;https://elecming.com/ox-hugo/mindmap-what-raspberrypi-can-do.jpg&#34;/&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&#34;my-personal-experience&#34;&gt;My personal experience&lt;/h2&gt;
@@ -59,8 +58,8 @@ But wait, the problem is still there, once my documents getting more and more, h
 &lt;blockquote&gt;
 &lt;p&gt;Then you need to build a Personal Document Management System.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;In the section of &lt;a href=&#34;https://hkvim.com/post/calibredb/#capturing&#34;&gt;Capturing&lt;/a&gt;, I will show you how to capturing and structuring your ideas with Mindmap and Org-mode.&lt;/p&gt;
-&lt;p&gt;Then, in the section of &lt;a href=&#34;https://hkvim.com/post/calibredb/#archive&#34;&gt;Archive&lt;/a&gt;, I will show you how to build your &lt;strong&gt;PDMS&lt;/strong&gt; with some open sources tools, and you do not need to worry about the prices or how long you can keep on using them, since they are free for life, and all data are saved locally, permanently, easily be managed within a single index database.&lt;/p&gt;
+&lt;p&gt;In the section of &lt;a href=&#34;https://elecming.com/post/calibredb/#capturing&#34;&gt;Capturing&lt;/a&gt;, I will show you how to capturing and structuring your ideas with Mindmap and Org-mode.&lt;/p&gt;
+&lt;p&gt;Then, in the section of &lt;a href=&#34;https://elecming.com/post/calibredb/#archive&#34;&gt;Archive&lt;/a&gt;, I will show you how to build your &lt;strong&gt;PDMS&lt;/strong&gt; with some open sources tools, and you do not need to worry about the prices or how long you can keep on using them, since they are free for life, and all data are saved locally, permanently, easily be managed within a single index database.&lt;/p&gt;
 &lt;h2 id=&#34;two-steps-to-build-a-personal-document-management-system&#34;&gt;Two Steps to Build a Personal Document Management System&lt;/h2&gt;
 &lt;h3 id=&#34;capturing&#34;&gt;Capturing&lt;/h3&gt;
 &lt;p&gt;The first step is capturing the ideas generated from your life.&lt;/p&gt;
@@ -77,9 +76,8 @@ But wait, the problem is still there, once my documents getting more and more, h
 &lt;/ol&gt;
 &lt;p&gt;I prefer drawing by hand, either with a real pen or e-pen on an iPad or asurface, since I really enjoy the &amp;ldquo;Coloring&amp;rdquo;, it is even a great &lt;a href=&#34;https://en.wikipedia.org/wiki/Chromotherapy&#34;&gt;therapy&lt;/a&gt; to make me peaceful, generating more ideas.&lt;/p&gt;
 &lt;p&gt;Here is a Mindmap I drew before — What a Raspberry Pi Can Do:&lt;/p&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;https://hkvim.com/ox-hugo/mindmap-what-raspberrypi-can-do.jpg&#34;
-         alt=&#34;Figure 1: What a Raspberry Pi can do&#34; width=&#34;600&#34;/&gt; &lt;figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;https://elecming.com/ox-hugo/mindmap-what-raspberrypi-can-do.jpg&#34;
+         alt=&#34;Figure 1: What a Raspberry Pi can do&#34; width=&#34;600&#34;/&gt;&lt;figcaption&gt;
             &lt;p&gt;Figure 1: What a Raspberry Pi can do&lt;/p&gt;
         &lt;/figcaption&gt;
 &lt;/figure&gt;
@@ -144,9 +142,8 @@ But wait, the problem is still there, once my documents getting more and more, h
 &lt;p&gt;&lt;a href=&#34;https://calibre-ebook.com/&#34;&gt;calibre&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;The most important thing to do is of course install calibre. It can help us to set up the &lt;strong&gt;Calibre Database&lt;/strong&gt; and &lt;strong&gt;Calibre Library&lt;/strong&gt; which we will work on it later without the calibre GUI.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Calibre Database&lt;/strong&gt; is a database file called &lt;strong&gt;metadata.db&lt;/strong&gt; generated by calibre, the &lt;strong&gt;Calibre Library&lt;/strong&gt; is the directory that holds your documents added into the &lt;strong&gt;Calibre Database&lt;/strong&gt;.&lt;/p&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;https://hkvim.com/ox-hugo/calibre_db.png&#34;
-         alt=&#34;Figure 1: Calibre Library &amp;amp;amp; Calibre Database&#34; width=&#34;600&#34;/&gt; &lt;figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;https://elecming.com/ox-hugo/calibre_db.png&#34;
+         alt=&#34;Figure 1: Calibre Library &amp;amp;amp; Calibre Database&#34; width=&#34;600&#34;/&gt;&lt;figcaption&gt;
             &lt;p&gt;Figure 1: Calibre Library &amp;amp; Calibre Database&lt;/p&gt;
         &lt;/figcaption&gt;
 &lt;/figure&gt;
@@ -171,16 +168,14 @@ But wait, the problem is still there, once my documents getting more and more, h
 &lt;li&gt;
 &lt;p&gt;Telegram Bot with calibredb&lt;/p&gt;
 &lt;p&gt;I created a project — &lt;a href=&#34;https://github.com/chenyanming/piBot&#34;&gt;Pibot&lt;/a&gt;. You can send documents to it, it will save the documents to &lt;strong&gt;Calibre Library&lt;/strong&gt; using &lt;strong&gt;calibredb&lt;/strong&gt; in the background. The documents will be saved both on telegram apps and on your &lt;strong&gt;Calibre Library&lt;/strong&gt;.&lt;/p&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;https://hkvim.com/ox-hugo/ebook.png&#34;
-         alt=&#34;Figure 1: Archive Book with Pibot&#34; width=&#34;600&#34;/&gt; &lt;figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;https://elecming.com/ox-hugo/ebook.png&#34;
+         alt=&#34;Figure 1: Archive Book with Pibot&#34; width=&#34;600&#34;/&gt;&lt;figcaption&gt;
             &lt;p&gt;Figure 1: Archive Book with Pibot&lt;/p&gt;
         &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;
-    &lt;img src=&#34;https://hkvim.com/ox-hugo/booksearch.png&#34;
-         alt=&#34;Figure 1: Search Book with Pibot&#34; width=&#34;300&#34;/&gt; &lt;figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;https://elecming.com/ox-hugo/booksearch.png&#34;
+         alt=&#34;Figure 1: Search Book with Pibot&#34; width=&#34;300&#34;/&gt;&lt;figcaption&gt;
             &lt;p&gt;Figure 1: Search Book with Pibot&lt;/p&gt;
         &lt;/figcaption&gt;
 &lt;/figure&gt;
@@ -193,9 +188,8 @@ But wait, the problem is still there, once my documents getting more and more, h
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/chenyanming/calibredb.el&#34;&gt;calibredb.el&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I recommend using &lt;a href=&#34;https://github.com/chenyanming/calibredb.el&#34;&gt;calibredb.el&lt;/a&gt;, a front-end of &lt;strong&gt;calibredb&lt;/strong&gt;.&lt;/p&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;https://hkvim.com/ox-hugo/calibredb_el.png&#34;
-         alt=&#34;Figure 1: calibredb.el&#34; width=&#34;600&#34;/&gt; &lt;figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;https://elecming.com/ox-hugo/calibredb_el.png&#34;
+         alt=&#34;Figure 1: calibredb.el&#34; width=&#34;600&#34;/&gt;&lt;figcaption&gt;
             &lt;p&gt;Figure 1: calibredb.el&lt;/p&gt;
         &lt;/figcaption&gt;
 &lt;/figure&gt;
@@ -209,9 +203,8 @@ But wait, the problem is still there, once my documents getting more and more, h
 &lt;li&gt;Add/remove/tagging/favorite/archive the items with just pressing a single key.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Here is the live filter feature:&lt;/p&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;https://hkvim.com/ox-hugo/filter.gif&#34;
-         alt=&#34;Figure 1: Live Filtering on calibredb.el&#34; width=&#34;600&#34;/&gt; &lt;figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;https://elecming.com/ox-hugo/filter.gif&#34;
+         alt=&#34;Figure 1: Live Filtering on calibredb.el&#34; width=&#34;600&#34;/&gt;&lt;figcaption&gt;
             &lt;p&gt;Figure 1: Live Filtering on calibredb.el&lt;/p&gt;
         &lt;/figcaption&gt;
 &lt;/figure&gt;
@@ -222,14 +215,13 @@ But wait, the problem is still there, once my documents getting more and more, h
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Librera Reader&lt;/p&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;https://hkvim.com/ox-hugo/librera-reader.jpg&#34;
-         alt=&#34;Figure 1: Librera Reader&#34; width=&#34;300&#34;/&gt; &lt;figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;https://elecming.com/ox-hugo/librera-reader.jpg&#34;
+         alt=&#34;Figure 1: Librera Reader&#34; width=&#34;300&#34;/&gt;&lt;figcaption&gt;
             &lt;p&gt;Figure 1: Librera Reader&lt;/p&gt;
         &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://librera.mobi/&#34;&gt;Librera Reader&lt;/a&gt; is an open-source E-Reader Application on Android. It has a great feature that it can scan your phones&amp;rsquo; directory and show all your documents in the dashboard with preview images. Since &lt;strong&gt;Calibre Database&lt;/strong&gt; is only an index of all your documents, all your documents will be saved under &lt;strong&gt;Calibre Library&lt;/strong&gt; location, &lt;strong&gt;Librera Reader&lt;/strong&gt; does a great job and finds out all documents in it! Of course, the first thing you need to do is to set up a synchronization bridge between your server&amp;rsquo;s &lt;strong&gt;Calibre Library&lt;/strong&gt; and your phone.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://librera.mobi/&#34;&gt;Librera Reader&lt;/a&gt; is an open-source E-Reader Application on Android. It has a great feature that it can scan your phones&#39; directory and show all your documents in the dashboard with preview images. Since &lt;strong&gt;Calibre Database&lt;/strong&gt; is only an index of all your documents, all your documents will be saved under &lt;strong&gt;Calibre Library&lt;/strong&gt; location, &lt;strong&gt;Librera Reader&lt;/strong&gt; does a great job and finds out all documents in it! Of course, the first thing you need to do is to set up a synchronization bridge between your server&amp;rsquo;s &lt;strong&gt;Calibre Library&lt;/strong&gt; and your phone.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -264,9 +256,8 @@ But wait, the problem is still there, once my documents getting more and more, h
 &lt;p&gt;Audio/Video Database: Plex Server&lt;/p&gt;
 &lt;p&gt;Set up a Plex Server to scan your audio/video directory, you can access the audio/videos with your phones/browser anytime, anywhere.&lt;/p&gt;
 &lt;p&gt;Once you send a link to Telegram Bot, &lt;strong&gt;pibot&lt;/strong&gt; will download the audio/videos, and Plex will know audios/videos are added into the directory, then it will automatically be added into Plex Library, so that you can access them just like accessing youtube.&lt;/p&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;https://hkvim.com/ox-hugo/youtube_music.png&#34;
-         alt=&#34;Figure 1: Plex&#34; width=&#34;600&#34;/&gt; &lt;figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;https://elecming.com/ox-hugo/youtube_music.png&#34;
+         alt=&#34;Figure 1: Plex&#34; width=&#34;600&#34;/&gt;&lt;figcaption&gt;
             &lt;p&gt;Figure 1: Plex&lt;/p&gt;
         &lt;/figcaption&gt;
 &lt;/figure&gt;
@@ -290,7 +281,7 @@ But wait, the problem is still there, once my documents getting more and more, h
                             
                             
                             
-                                <category scheme="https://hkvim.com/categories/technology/" term="Technology" label="Technology" />
+                                <category scheme="https://elecming.com/categories/technology/" term="Technology" label="Technology" />
                             
                         
                     
@@ -300,19 +291,19 @@ But wait, the problem is still there, once my documents getting more and more, h
                             
                             
                             
-                                <category scheme="https://hkvim.com/tags/pi/" term="pi" label="pi" />
+                                <category scheme="https://elecming.com/tags/pi/" term="pi" label="pi" />
                             
                         
                             
                             
                             
-                                <category scheme="https://hkvim.com/tags/emacs/" term="emacs" label="emacs" />
+                                <category scheme="https://elecming.com/tags/emacs/" term="emacs" label="emacs" />
                             
                         
                             
                             
                             
-                                <category scheme="https://hkvim.com/tags/system/" term="system" label="system" />
+                                <category scheme="https://elecming.com/tags/system/" term="system" label="system" />
                             
                         
                     
@@ -322,13 +313,13 @@ But wait, the problem is still there, once my documents getting more and more, h
     
         <entry>
             <title type="text">The ultimate Emacs hacking tutorial in Windows 10 WSL 2</title>
-            <link rel="alternate" type="text/html" href="https://hkvim.com/post/windows-setup/" />
-            <id>https://hkvim.com/post/windows-setup/</id>
-            <updated>2021-02-16T00:00:00&#43;08:00</updated>
-            <published>2020-09-07T00:00:00&#43;08:00</published>
+            <link rel="alternate" type="text/html" href="https://elecming.com/post/windows-setup/" />
+            <id>https://elecming.com/post/windows-setup/</id>
+            <updated>2020-09-19T00:00:00&#43;00:00</updated>
+            <published>2020-09-07T00:00:00&#43;00:00</published>
             <author>
                     <name>Damon Chan</name>
-                    <uri>https://hkvim.com/</uri>
+                    <uri>https://elecming.com/</uri>
                     <email>elecming@gmail.com</email>
                     </author>
             <rights>[CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)</rights><summary type="html">Do you think Emacs&amp;rsquo;s performance in windows is bad? Do you really want to use a native Speed Emacs in Windows? Do you hate the unnatural path transition between windows convention and Linux convention? Do you feel frustrated when you try to install and configure Emacs in WSL? Do you just want to taste the power of Emacs running in WSL 2?
@@ -337,8 +328,7 @@ What is WSL? Earlier on August 2, 2016, Microsoft released Windows Subsystem for
 In May 2019, WSL 2 was introduced, by importing the Real Linux Kernel through Hyper-V features (in a Virtual Machine Environment), providing the users with the full &amp;amp; immerse way to work with Linux under windows, with 20 times the read/write performances of WSL 1.
 For Windows Emacs Users, here are some advantages/disadvantages for you to consider before switching the WSL 2:</summary>
             
-                <content type="html">&lt;figure&gt;
-    &lt;img src=&#34;https://hkvim.com/ox-hugo/emacs.png&#34;/&gt; 
+                <content type="html">&lt;figure&gt;&lt;img src=&#34;https://elecming.com/ox-hugo/emacs.png&#34;/&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Do you think Emacs&amp;rsquo;s performance in windows is bad? Do you really want to use a native Speed Emacs in Windows? Do you hate the unnatural path transition between windows convention and Linux convention? Do you feel frustrated when you try to install and configure Emacs in WSL? Do you just want to taste the power of Emacs running in WSL 2?&lt;/p&gt;
@@ -370,28 +360,28 @@ For Windows Emacs Users, here are some advantages/disadvantages for you to consi
 &lt;h4 id=&#34;install-wsl-2&#34;&gt;Install WSL 2&lt;/h4&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h4 id=&#34;enable-wsl-2&#34;&gt;Enable WSL 2&lt;/h4&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h4 id=&#34;check-wsl-version&#34;&gt;Check WSL version&lt;/h4&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;wsl -l -v
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;wsl -l -v
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;There are many people who may be not able to run the above commands, just make sure you have updated to the latest windows.
@@ -399,26 +389,25 @@ For Windows Emacs Users, here are some advantages/disadvantages for you to consi
 &lt;h4 id=&#34;set-default-wsl-version-to-2&#34;&gt;Set default WSL version to 2&lt;/h4&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;wsl.exe --set-default-version &lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;wsl.exe --set-default-version &lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;All later WSL Distros are installed will be WSL 2. No worries, you can switch between WSL 1 and WSL 2 with just one command without pain, just do it~&lt;/p&gt;
 &lt;h4 id=&#34;install-ubuntu-18-dot-04-in-microsoft-store&#34;&gt;Install Ubuntu 18.04 in Microsoft Store&lt;/h4&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;https://hkvim.com/ox-hugo/ubuntu18.04.png&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://elecming.com/ox-hugo/ubuntu18.04.png&#34;/&gt;
 &lt;/figure&gt;
 
 &lt;h4 id=&#34;optional-convert-wsl-1-to-wsl-2&#34;&gt;Optional: Convert WSL 1 to WSL 2&lt;/h4&gt;
 &lt;p&gt;If you already installed some Distros before but they are in WSL 1, no worries, it is very easy to switch from WSL 1 to WSL 2:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;wsl.exe --set-version Ubuntu-18.04 &lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;wsl.exe --set-version Ubuntu-18.04 &lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h3 id=&#34;choosing-the-terminal&#34;&gt;Choosing the terminal&lt;/h3&gt;
@@ -434,8 +423,7 @@ For Windows Emacs Users, here are some advantages/disadvantages for you to consi
 &lt;li&gt;Open Source and Official Support.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&#34;install-windows-terminal-in-microsoft-store&#34;&gt;Install windows Terminal in Microsoft Store&lt;/h4&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;https://hkvim.com/ox-hugo/windows-terminal.png&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://elecming.com/ox-hugo/windows-terminal.png&#34;/&gt;
 &lt;/figure&gt;
 
 &lt;h4 id=&#34;windows-terminal&#34;&gt;Windows Terminal&lt;/h4&gt;
@@ -446,7 +434,7 @@ For Windows Emacs Users, here are some advantages/disadvantages for you to consi
 &lt;p&gt;Add &amp;ldquo;cursorShape&amp;rdquo; and &amp;ldquo;fontFace&amp;rdquo; to the &amp;ldquo;defaults&amp;rdquo; section, it will apply on all tabs&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
@@ -454,7 +442,7 @@ For Windows Emacs Users, here are some advantages/disadvantages for you to consi
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;defaults&amp;#34;&lt;/span&gt;:
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;defaults&amp;#34;&lt;/span&gt;:
 &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
     // Put settings here that you want to apply to all profiles.
     &lt;span class=&#34;s2&#34;&gt;&amp;#34;cursorShape&amp;#34;&lt;/span&gt;: &lt;span class=&#34;s2&#34;&gt;&amp;#34;filledBox&amp;#34;&lt;/span&gt; ,
@@ -470,7 +458,7 @@ For Windows Emacs Users, here are some advantages/disadvantages for you to consi
 &lt;p&gt;Update the home directory&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
@@ -480,7 +468,7 @@ For Windows Emacs Users, here are some advantages/disadvantages for you to consi
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
     &lt;span class=&#34;s2&#34;&gt;&amp;#34;guid&amp;#34;&lt;/span&gt;: &lt;span class=&#34;s2&#34;&gt;&amp;#34;{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}&amp;#34;&lt;/span&gt;,
     &lt;span class=&#34;s2&#34;&gt;&amp;#34;hidden&amp;#34;&lt;/span&gt;: false,
     &lt;span class=&#34;s2&#34;&gt;&amp;#34;name&amp;#34;&lt;/span&gt;: &lt;span class=&#34;s2&#34;&gt;&amp;#34;Ubuntu-18.04&amp;#34;&lt;/span&gt;,
@@ -497,8 +485,7 @@ For Windows Emacs Users, here are some advantages/disadvantages for you to consi
 &lt;li&gt;
 &lt;p&gt;Disable keyboard cursor blink&lt;/p&gt;
 &lt;p&gt;Disable globally in keyboard setting:&lt;/p&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;https://hkvim.com/ox-hugo/UnblinkCursor.png&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://elecming.com/ox-hugo/UnblinkCursor.png&#34;/&gt;
 &lt;/figure&gt;
 
 &lt;/li&gt;
@@ -507,31 +494,25 @@ For Windows Emacs Users, here are some advantages/disadvantages for you to consi
 &lt;p&gt;I like to use zsh which provides more enhancement and configuration options compared with Bash.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;sudo apt install zsh
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;sudo apt install zsh
 chsh -s &lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;which zsh&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;
 sh -c &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h3 id=&#34;fonts&#34;&gt;Fonts&lt;/h3&gt;
-&lt;p&gt;Just create a soft link (or copy all fonts) from Windows to Ubuntu:&lt;/p&gt;
+&lt;p&gt;Just create a soft link from Windows to Ubuntu:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# share the font by creating a soft link&lt;/span&gt;
-&lt;span class=&#34;c1&#34;&gt;# ln -s /mnt/c/Windows/Fonts ~/.fonts&lt;/span&gt;
-&lt;span class=&#34;c1&#34;&gt;# Or copy the fonts to wsl2&amp;#39;s local directory for best performance, and also faster boot up time.&lt;/span&gt;
-cp -r /mnt/c/Windows/Fonts ~/.fonts
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;ln -s /mnt/c/Windows/Fonts ~/.fonts
 fc-cache -fv
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
@@ -539,10 +520,10 @@ fc-cache -fv
 &lt;p&gt;Just link Windows OneDrive Root Directory to Ubuntu:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;ln -s /mnt/c/Users/elecm/OneDrive ~/OneDrive
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;ln -s /mnt/c/Users/elecm/OneDrive ~/OneDrive
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h3 id=&#34;x11-server--vcxsrv&#34;&gt;X11 Server (VcXsrv)&lt;/h3&gt;
@@ -550,10 +531,10 @@ fc-cache -fv
 &lt;h4 id=&#34;install-vcxsrv&#34;&gt;Install VcXsrv&lt;/h4&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;choco install vcxsrv
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;choco install vcxsrv
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h4 id=&#34;configure-vcxsrv&#34;&gt;Configure VcXsrv&lt;/h4&gt;
@@ -563,22 +544,19 @@ fc-cache -fv
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Multiple windows -&amp;gt; Display number: -1 -&amp;gt; Next&lt;/p&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;https://hkvim.com/ox-hugo/vcxsrv-1.png&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://elecming.com/ox-hugo/vcxsrv-1.png&#34;/&gt;
 &lt;/figure&gt;
 
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Start no client&lt;/p&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;https://hkvim.com/ox-hugo/vcxsrv-2.png&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://elecming.com/ox-hugo/vcxsrv-2.png&#34;/&gt;
 &lt;/figure&gt;
 
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Tick Clipboard, Primary Selection, Native opengl, Disable access control (If you use &lt;code&gt;socat&lt;/code&gt; to do X11 forwarding, Access control can be enabled, check &lt;a href=&#34;https://hkvim.com/post/windows-setup/#other-methods&#34;&gt;Other Methods&lt;/a&gt; below) -&amp;gt; Next&lt;/p&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;https://hkvim.com/ox-hugo/vcxsrv-3.png&#34;/&gt; 
+&lt;p&gt;Tick Clipboard, Primary Selection, Native opengl, Disable access control (If you use &lt;code&gt;socat&lt;/code&gt; to do X11 forwarding, Access control can be enabled, check &lt;a href=&#34;https://elecming.com/post/windows-setup/#other-methods&#34;&gt;Other Methods&lt;/a&gt; below) -&amp;gt; Next&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://elecming.com/ox-hugo/vcxsrv-3.png&#34;/&gt;
 &lt;/figure&gt;
 
 &lt;/li&gt;
@@ -598,8 +576,7 @@ PS:&lt;/p&gt;
 &lt;li&gt;
 &lt;p&gt;allow both Private and Public network in windows firewall setting
 &lt;code&gt;Control Panel\System and Security\Windows Defender Firewall\Allowed apps&lt;/code&gt;&lt;/p&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;https://hkvim.com/ox-hugo/vcxsrv-5.png&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://elecming.com/ox-hugo/vcxsrv-5.png&#34;/&gt;
 &lt;/figure&gt;
 
 &lt;/li&gt;
@@ -609,11 +586,11 @@ PS:&lt;/p&gt;
 &lt;code&gt;vi /etc/wsl.conf&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;network&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;network&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
 &lt;span class=&#34;nv&#34;&gt;generateResolvConf&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;false&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
@@ -621,14 +598,14 @@ PS:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;vi /etc/resolv.conf&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# This file was automatically generated by WSL. To stop automatic generation of this file, add the following entry to /etc/wsl.conf:&lt;/span&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# This file was automatically generated by WSL. To stop automatic generation of this file, add the following entry to /etc/wsl.conf:&lt;/span&gt;
 &lt;span class=&#34;c1&#34;&gt;# [network]&lt;/span&gt;
 &lt;span class=&#34;c1&#34;&gt;# generateResolvConf = false&lt;/span&gt;
 nameserver 8.8.8.8
@@ -639,11 +616,11 @@ nameserver 8.8.4.4
 &lt;p&gt;&lt;code&gt;vi ~/.zshrc&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;nb&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;DISPLAY&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;ip route &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; awk &lt;span class=&#34;s1&#34;&gt;&amp;#39;{print $3; exit}&amp;#39;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;:0
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;nb&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;DISPLAY&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;ip route &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; awk &lt;span class=&#34;s1&#34;&gt;&amp;#39;{print $3; exit}&amp;#39;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;:0
 &lt;span class=&#34;nb&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;LIBGL_ALWAYS_INDIRECT&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
@@ -653,8 +630,7 @@ nameserver 8.8.4.4
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Right click &lt;code&gt;XLaunch&lt;/code&gt; (VcXsrv) -&amp;gt; Compatibility -&amp;gt; Change high DPI settings -&amp;gt; Tick Override high DPI scaling Behavior, Application.&lt;/p&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;https://hkvim.com/ox-hugo/vcxsrv-4.png&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://elecming.com/ox-hugo/vcxsrv-4.png&#34;/&gt;
 &lt;/figure&gt;
 
 &lt;/li&gt;
@@ -665,10 +641,10 @@ nameserver 8.8.4.4
 &lt;!--listend--&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;nb&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;GDK_SCALE&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;nb&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;GDK_SCALE&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h4 id=&#34;bigger-cursor&#34;&gt;Bigger Cursor&lt;/h4&gt;
@@ -678,10 +654,10 @@ nameserver 8.8.4.4
 &lt;p&gt;Install big-cursor&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;    sudo apt install big-cursor
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;    sudo apt install big-cursor
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/li&gt;
@@ -698,7 +674,7 @@ nameserver 8.8.4.4
 &lt;h4 id=&#34;install-dependencies&#34;&gt;install dependencies&lt;/h4&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
@@ -716,7 +692,7 @@ nameserver 8.8.4.4
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;sudo apt install -y autoconf automake autotools-dev bsd-mailx build-essential &lt;span class=&#34;se&#34;&gt;\
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;sudo apt install -y autoconf automake autotools-dev bsd-mailx build-essential &lt;span class=&#34;se&#34;&gt;\
 &lt;/span&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;    diffstat gnutls-dev imagemagick libasound2-dev libc6-dev libdatrie-dev &lt;span class=&#34;se&#34;&gt;\
 &lt;/span&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;    libdbus-1-dev libgconf2-dev libgif-dev libgnutls28-dev libgpm-dev libgtk2.0-dev &lt;span class=&#34;se&#34;&gt;\
 &lt;/span&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;    libgtk-3-dev libice-dev libjpeg-dev liblockfile-dev liblqr-1-0 libm17n-dev &lt;span class=&#34;se&#34;&gt;\
@@ -737,7 +713,7 @@ nameserver 8.8.4.4
 &lt;/div&gt;&lt;h4 id=&#34;download-compile-and-install&#34;&gt;Download, compile and install&lt;/h4&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
@@ -747,7 +723,7 @@ nameserver 8.8.4.4
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; ~
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; ~
 wget https://ftp.gnu.org/pub/gnu/emacs/emacs-27.1.tar.gz
 tar -xzvf emacs-27.1.tar.gz
 &lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; emacs-27.1
@@ -760,21 +736,21 @@ rm ~/emacs-27.1.tar.gz
 &lt;/div&gt;&lt;h4 id=&#34;install-doom&#34;&gt;Install doom&lt;/h4&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;git clone --depth &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; https://github.com/hlissner/doom-emacs ~/.emacs.d
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;git clone --depth &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; https://github.com/hlissner/doom-emacs ~/.emacs.d
 ~/.emacs.d/bin/doom install
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h4 id=&#34;start-emacs&#34;&gt;Start Emacs&lt;/h4&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;emacs
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;emacs
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;Please notice:&lt;/p&gt;
@@ -788,7 +764,7 @@ rm ~/emacs-27.1.tar.gz
 &lt;p&gt;Add the following to &lt;code&gt;.zshrc&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
@@ -800,7 +776,7 @@ rm ~/emacs-27.1.tar.gz
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# fix interop&lt;/span&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# fix interop&lt;/span&gt;
 fix_wsl2_interop&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
 	&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; i in &lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;pstree -np -s &lt;span class=&#34;nv&#34;&gt;$$&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; grep -o -E &lt;span class=&#34;s1&#34;&gt;&amp;#39;[0-9]+&amp;#39;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;do&lt;/span&gt;
 		&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;[[&lt;/span&gt; -e &lt;span class=&#34;s2&#34;&gt;&amp;#34;/run/WSL/&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;_interop&amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;]]&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;then&lt;/span&gt;
@@ -812,23 +788,11 @@ fix_wsl2_interop&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt; &lt;span class=&#3
 ~/.emacs.d/bin/doom env &amp;gt; /dev/null 2&amp;gt;&lt;span class=&#34;p&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h3 id=&#34;setup-audio&#34;&gt;Setup Audio&lt;/h3&gt;
-&lt;p&gt;Add the following to &lt;code&gt;.zshrc&lt;/code&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;nb&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;PULSE_SERVER&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;tcp:&lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;ip route &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; awk &lt;span class=&#34;s1&#34;&gt;&amp;#39;{print $3; exit}&amp;#39;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;In windows side, setup PulseAudio server,
-Follow &lt;a href=&#34;https://github.com/microsoft/WSL/issues/5816&#34;&gt;https://github.com/microsoft/WSL/issues/5816&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;optional-setup-python-development-environment&#34;&gt;Optional: Setup Python Development Environment&lt;/h3&gt;
+&lt;/div&gt;&lt;h3 id=&#34;optional-setup-python-development-environment&#34;&gt;Optional: Setup Python Development Environment&lt;/h3&gt;
 &lt;h4 id=&#34;pyenv&#34;&gt;pyenv&lt;/h4&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
@@ -837,7 +801,7 @@ Follow &lt;a href=&#34;https://github.com/microsoft/WSL/issues/5816&#34;&gt;http
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;sudo apt-get install git gcc make openssl libssl-dev libbz2-dev libreadline-dev libsqlite3-dev libffi-dev
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;sudo apt-get install git gcc make openssl libssl-dev libbz2-dev libreadline-dev libsqlite3-dev libffi-dev
 git clone https://github.com/pyenv/pyenv.git ~/.pyenv
 &lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;export PYENV_ROOT=&amp;#34;$HOME/.pyenv&amp;#34;&amp;#39;&lt;/span&gt; &amp;gt;&amp;gt; ~/.zshrc
 &lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;export PATH=&amp;#34;$PYENV_ROOT/bin:$PATH&amp;#34;&amp;#39;&lt;/span&gt; &amp;gt;&amp;gt; ~/.zshrc
@@ -853,34 +817,34 @@ pyenv global 3.7.9
 &lt;p&gt;Install nvm&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; bash
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; bash
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;Add to .zshrc&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;nb&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;NVM_DIR&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$HOME&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;/.nvm&amp;#34;&lt;/span&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;nb&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;NVM_DIR&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$HOME&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;/.nvm&amp;#34;&lt;/span&gt;
 &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt; -s &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$NVM_DIR&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;/nvm.sh&amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\.&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$NVM_DIR&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;/nvm.sh&amp;#34;&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;# This loads nvm&lt;/span&gt;
 &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt; -s &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$NVM_DIR&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;/bash_completion&amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\.&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$NVM_DIR&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;/bash_completion&amp;#34;&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;# This loads nvm bash_completion&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;nvm install --lts
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;nvm install --lts
 nvm use --lts
 npm i -g javascript-typescript-langserver
 .emacs.d/bin/doom sync
@@ -889,7 +853,7 @@ npm i -g javascript-typescript-langserver
 &lt;/div&gt;&lt;h3 id=&#34;optional-setup-rust-development-environment&#34;&gt;Optional: Setup Rust Development Environment&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
@@ -897,7 +861,7 @@ npm i -g javascript-typescript-langserver
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;curl --proto &lt;span class=&#34;s1&#34;&gt;&amp;#39;=https&amp;#39;&lt;/span&gt; --tlsv1.2 -sSf https://sh.rustup.rs &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; sh
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;curl --proto &lt;span class=&#34;s1&#34;&gt;&amp;#39;=https&amp;#39;&lt;/span&gt; --tlsv1.2 -sSf https://sh.rustup.rs &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; sh
 rustup component add rust-src
 sudo curl -L https://github.com/rust-analyzer/rust-analyzer/releases/latest/download/rust-analyzer-linux -o /usr/bin/rust-analyzer
 sudo chmod +x /usr/bin/rust-analyzer
@@ -910,27 +874,27 @@ rustup component add clippy-preview
 &lt;p&gt;With &lt;code&gt;apt&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;sudo apt install calibre sqlite3 pandoc
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;sudo apt install calibre sqlite3 pandoc
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h4 id=&#34;pdf-tools&#34;&gt;pdf-tools&lt;/h4&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;sudo apt install libpng-dev zlib1g-dev libpoppler-glib-dev libpoppler-private-dev
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;sudo apt install libpng-dev zlib1g-dev libpoppler-glib-dev libpoppler-private-dev
 M-x pdf-tools-install
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h4 id=&#34;rga&#34;&gt;rga&lt;/h4&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
@@ -938,7 +902,7 @@ M-x pdf-tools-install
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;sudo apt install build-essential pandoc poppler-utils ffmpeg
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;sudo apt install build-essential pandoc poppler-utils ffmpeg
 wget https://github.com/phiresky/ripgrep-all/releases/download/v0.9.6/ripgrep_all-v0.9.6-x86_64-unknown-linux-musl.tar.gz
 tar -zxvf ripgrep_all-v0.9.6-x86_64-unknown-linux-musl.tar.gz
 &lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; ripgrep_all-v0.9.6-x86_64-unknown-linux-musl
@@ -953,7 +917,7 @@ sudo cp rga-preproc /usr/bin
 &lt;p&gt;Install and setup Rime&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
@@ -965,7 +929,7 @@ sudo cp rga-preproc /usr/bin
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;sudo apt install git build-essential cmake libboost-all-dev libgoogle-glog-dev libleveldb-dev libmarisa-dev libopencc-dev libyaml-cpp-dev libgtest-dev
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;sudo apt install git build-essential cmake libboost-all-dev libgoogle-glog-dev libleveldb-dev libmarisa-dev libopencc-dev libyaml-cpp-dev libgtest-dev
 &lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; /usr/src/gtest
 sudo cmake CMakeLists.txt
 sudo make
@@ -981,10 +945,10 @@ sudo apt-get install ibus-rime
 &lt;p&gt;In Emacs&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;M-x rime-compile-module
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;M-x rime-compile-module
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/li&gt;
@@ -995,11 +959,11 @@ sudo apt-get install ibus-rime
 &lt;p&gt;plum&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;curl -fsSL https://git.io/rime-install &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; bash
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;curl -fsSL https://git.io/rime-install &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; bash
 &lt;span class=&#34;c1&#34;&gt;# rime_dir=&amp;#34;$HOME/.rime&amp;#34; bash rime-install&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
@@ -1008,16 +972,16 @@ sudo apt-get install ibus-rime
 &lt;h4 id=&#34;sdcv&#34;&gt;sdcv&lt;/h4&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;sudo apt install stardict sdcv
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;sudo apt install stardict sdcv
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h4 id=&#34;telega&#34;&gt;telega&lt;/h4&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
@@ -1028,7 +992,7 @@ sudo apt-get install ibus-rime
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;9
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;sudo apt install gperf
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;sudo apt install gperf
 git clone https://github.com/tdlib/td.git
 &lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; td
 mkdir build &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; build &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; cmake ../
@@ -1042,7 +1006,7 @@ make &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; make install
 &lt;/div&gt;&lt;h3 id=&#34;an-dot-zshrc-example&#34;&gt;An .zshrc example&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;  1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;  1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  3
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;  4
@@ -1171,7 +1135,7 @@ make &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; make install
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;127
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# If you come from bash you might have to change your $PATH.&lt;/span&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# If you come from bash you might have to change your $PATH.&lt;/span&gt;
 &lt;span class=&#34;c1&#34;&gt;# export PATH=$HOME/bin:/usr/local/bin:$PATH&lt;/span&gt;
 
 &lt;span class=&#34;c1&#34;&gt;# Path to your oh-my-zsh installation.&lt;/span&gt;
@@ -1266,7 +1230,7 @@ make &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; make install
 &lt;span class=&#34;c1&#34;&gt;# plugins, and themes. Aliases can be placed here, though oh-my-zsh&lt;/span&gt;
 &lt;span class=&#34;c1&#34;&gt;# users are encouraged to define aliases within the ZSH_CUSTOM folder.&lt;/span&gt;
 &lt;span class=&#34;c1&#34;&gt;# For a full list of active aliases, run `alias`.&lt;/span&gt;
-#
+&lt;span class=&#34;c1&#34;&gt;#&lt;/span&gt;
 &lt;span class=&#34;c1&#34;&gt;# Example aliases&lt;/span&gt;
 &lt;span class=&#34;c1&#34;&gt;# alias zshconfig=&amp;#34;mate ~/.zshrc&amp;#34;&lt;/span&gt;
 &lt;span class=&#34;c1&#34;&gt;# alias ohmyzsh=&amp;#34;mate ~/.oh-my-zsh&amp;#34;&lt;/span&gt;
@@ -1304,10 +1268,10 @@ fix_wsl2_interop&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt; &lt;span class=&#3
 &lt;p&gt;wsl ships with a &amp;ndash;export option for users to do export the WSL distro to a tar file which can be imported to other machines:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;wsl --export Ubuntu-18.04 Ubuntu-18.04_20200905
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;wsl --export Ubuntu-18.04 Ubuntu-18.04_20200905
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;an-emacs-shortcut&#34;&gt;An Emacs Shortcut&lt;/h2&gt;
@@ -1315,7 +1279,7 @@ fix_wsl2_interop&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt; &lt;span class=&#3
 &lt;h3 id=&#34;emacs-dot-sh&#34;&gt;Emacs.sh&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
@@ -1334,7 +1298,7 @@ fix_wsl2_interop&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt; &lt;span class=&#3
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; ~
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; ~
 &lt;span class=&#34;nb&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;DISPLAY&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;ip route &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; awk &lt;span class=&#34;s1&#34;&gt;&amp;#39;{print $3; exit}&amp;#39;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;:0
 &lt;span class=&#34;nb&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;LIBGL_ALWAYS_INDIRECT&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;
 
@@ -1356,11 +1320,11 @@ emacs
 &lt;/div&gt;&lt;h3 id=&#34;emacs-dot-bat&#34;&gt;Emacs.bat&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;@echo off
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;@echo off
 wsl ./emacs.sh
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
@@ -1370,13 +1334,13 @@ wsl ./emacs.sh
 &lt;h3 id=&#34;browser-url-with-default-browser&#34;&gt;Browser URL with default browser&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;defun&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;wsl-browse-url-xdg-open&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;url&lt;/span&gt; &lt;span class=&#34;kp&#34;&gt;&amp;amp;optional&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;ignored&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;defun&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;wsl-browse-url-xdg-open&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;url&lt;/span&gt; &lt;span class=&#34;kp&#34;&gt;&amp;amp;optional&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;ignored&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
   &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;interactive&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;browse-url-interactive-arg&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;URL: &amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
   &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;shell-command-to-string&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;concat&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;explorer.exe &amp;#34;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)))&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;advice-add&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;#&amp;#39;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;browse-url-xdg-open&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;:override&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;#&amp;#39;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;wsl-browse-url-xdg-open&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
@@ -1385,7 +1349,7 @@ wsl ./emacs.sh
 &lt;/div&gt;&lt;h3 id=&#34;if-you-a-calibredb-user-you-can-add-the-following-advice-to-open-the-pdf-epub-with-windows-default-programs&#34;&gt;If you a &lt;a href=&#34;https://github.com/chenyanming/calibredb.el&#34;&gt;calibredb&lt;/a&gt; user, you can add the following advice to open the PDF/EPUB with windows default programs&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
@@ -1393,7 +1357,7 @@ wsl ./emacs.sh
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span class=&#34;c1&#34;&gt;;; calibredb&lt;/span&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span class=&#34;c1&#34;&gt;;; calibredb&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;defun&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;wslcalibredb-open-with-default-tool&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;filepath&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
   &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;shell-command-to-string&lt;/span&gt;
    &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;concat&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;cd &amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;shell-quote-argument&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;file-name-directory&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;expand-file-name&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;filepath&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)))&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34; &amp;amp;&amp;amp; &amp;#34;&lt;/span&gt;
@@ -1404,7 +1368,7 @@ wsl ./emacs.sh
 &lt;/div&gt;&lt;h3 id=&#34;open-the-file-with-windows-default-programs-or-reveal-it-in-explorer&#34;&gt;Open the file with windows default programs or reveal it in explorer&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
@@ -1428,7 +1392,7 @@ wsl ./emacs.sh
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span class=&#34;c1&#34;&gt;;;;###autoload&lt;/span&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-emacs-lisp&#34; data-lang=&#34;emacs-lisp&#34;&gt;&lt;span class=&#34;c1&#34;&gt;;;;###autoload&lt;/span&gt;
 
 &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;defmacro&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;wsl--open-with&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;id&lt;/span&gt; &lt;span class=&#34;kp&#34;&gt;&amp;amp;optional&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;app&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;dir&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
   &lt;span class=&#34;o&#34;&gt;`&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;defun&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;intern&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;format&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;wsl/%s&amp;#34;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
@@ -1454,11 +1418,11 @@ wsl ./emacs.sh
 &lt;/div&gt;
 &lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;M-x wsl/open-in-default-program
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;M-x wsl/open-in-default-program
 M-x wsl/reveal-in-explorer
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
@@ -1493,7 +1457,7 @@ M-x wsl/reveal-in-explorer
                             
                             
                             
-                                <category scheme="https://hkvim.com/categories/technology/" term="Technology" label="Technology" />
+                                <category scheme="https://elecming.com/categories/technology/" term="Technology" label="Technology" />
                             
                         
                     
@@ -1503,19 +1467,19 @@ M-x wsl/reveal-in-explorer
                             
                             
                             
-                                <category scheme="https://hkvim.com/tags/windows/" term="windows" label="windows" />
+                                <category scheme="https://elecming.com/tags/windows/" term="windows" label="windows" />
                             
                         
                             
                             
                             
-                                <category scheme="https://hkvim.com/tags/emacs/" term="emacs" label="emacs" />
+                                <category scheme="https://elecming.com/tags/emacs/" term="emacs" label="emacs" />
                             
                         
                             
                             
                             
-                                <category scheme="https://hkvim.com/tags/wsl2/" term="wsl2" label="wsl2" />
+                                <category scheme="https://elecming.com/tags/wsl2/" term="wsl2" label="wsl2" />
                             
                         
                     
@@ -1525,13 +1489,13 @@ M-x wsl/reveal-in-explorer
     
         <entry>
             <title type="text">Calibredb － Emacs 的电子书管理方案</title>
-            <link rel="alternate" type="text/html" href="https://hkvim.com/post/20200823-calibredb/" />
-            <id>https://hkvim.com/post/20200823-calibredb/</id>
-            <updated>2020-05-09T00:00:00&#43;08:00</updated>
-            <published>2020-05-09T00:00:00&#43;08:00</published>
+            <link rel="alternate" type="text/html" href="https://elecming.com/post/20200823-calibredb/" />
+            <id>https://elecming.com/post/20200823-calibredb/</id>
+            <updated>2020-05-09T00:00:00&#43;00:00</updated>
+            <published>2020-05-09T00:00:00&#43;00:00</published>
             <author>
                     <name>Damon Chan</name>
-                    <uri>https://hkvim.com/</uri>
+                    <uri>https://elecming.com/</uri>
                     <email>elecming@gmail.com</email>
                     </author>
             <rights>[CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)</rights><summary type="html">Calibredb Emacs 的电子书管理方案。 这个包利用 calibredb ，将 calibre 的工作流完美的融入到 Emacs，打造一体化的电子书/文档的管理方案。
@@ -1554,7 +1518,7 @@ M-x wsl/reveal-in-explorer
                             
                             
                             
-                                <category scheme="https://hkvim.com/categories/technology/" term="Technology" label="Technology" />
+                                <category scheme="https://elecming.com/categories/technology/" term="Technology" label="Technology" />
                             
                         
                     
@@ -1564,7 +1528,7 @@ M-x wsl/reveal-in-explorer
                             
                             
                             
-                                <category scheme="https://hkvim.com/tags/emacs/" term="emacs" label="emacs" />
+                                <category scheme="https://elecming.com/tags/emacs/" term="emacs" label="emacs" />
                             
                         
                     
@@ -1574,13 +1538,13 @@ M-x wsl/reveal-in-explorer
     
         <entry>
             <title type="text">inherit-org，让非 org buffers 也拥有 org 的阅读体验</title>
-            <link rel="alternate" type="text/html" href="https://hkvim.com/post/20200419195645-shrface_plus/" />
-            <id>https://hkvim.com/post/20200419195645-shrface_plus/</id>
-            <updated>2020-04-19T00:00:00&#43;08:00</updated>
-            <published>2020-04-19T00:00:00&#43;08:00</published>
+            <link rel="alternate" type="text/html" href="https://elecming.com/post/20200419195645-shrface_plus/" />
+            <id>https://elecming.com/post/20200419195645-shrface_plus/</id>
+            <updated>2020-04-19T00:00:00&#43;00:00</updated>
+            <published>2020-04-19T00:00:00&#43;00:00</published>
             <author>
                     <name>Damon Chan</name>
-                    <uri>https://hkvim.com/</uri>
+                    <uri>https://elecming.com/</uri>
                     <email>elecming@gmail.com</email>
                     </author>
             <rights>[CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)</rights><summary type="html">什么是 inherit-org？ inherit-org 是一个 emacs 的插件（package），也是 shrface 的应用扩展，它能让 shrface 的样式（Faces）扩展到更多的非 org buffers。目前支持以下的 Major Modes。
@@ -1588,7 +1552,7 @@ M-x wsl/reveal-in-explorer
  继承 org faces Minor mode: inherit-org-mode  imenu outline-minor-mode org-indent-mode      Info mode
  继承 org faces    helpful mode
  继承 org faces Minor mode: inherit-org-mode  imenu outline-minor-mode org-indent-mode      其他 Major Modes
- Function: inherit-org-fontify-buffer    下载链接  https://github.com/chenyanming/inherit-org  截图       </summary>
+ Function: inherit-org-fontify-buffer    下载链接  https://github.com/chenyanming/inherit-org  截图    </summary>
             
                 <content type="html">&lt;h2 id=&#34;什么是-inherit-org&#34;&gt;什么是 inherit-org？&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;inherit-org&lt;/code&gt; 是一个 emacs 的插件（package），也是 shrface 的应用扩展，它能让
@@ -1638,16 +1602,13 @@ shrface 的样式（Faces）扩展到更多的非 org buffers。目前支持以�
 &lt;li&gt;&lt;a href=&#34;https://github.com/chenyanming/inherit-org&#34;&gt;https://github.com/chenyanming/inherit-org&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;截图&#34;&gt;截图&lt;/h2&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;https://hkvim.com/ox-hugo/helpful.png&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://elecming.com/ox-hugo/helpful.png&#34;/&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;
-    &lt;img src=&#34;https://hkvim.com/ox-hugo/Info.png&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://elecming.com/ox-hugo/Info.png&#34;/&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;
-    &lt;img src=&#34;https://hkvim.com/ox-hugo/w3m.png&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://elecming.com/ox-hugo/w3m.png&#34;/&gt;
 &lt;/figure&gt;
 
 </content>
@@ -1662,7 +1623,7 @@ shrface 的样式（Faces）扩展到更多的非 org buffers。目前支持以�
                             
                             
                             
-                                <category scheme="https://hkvim.com/categories/technology/" term="Technology" label="Technology" />
+                                <category scheme="https://elecming.com/categories/technology/" term="Technology" label="Technology" />
                             
                         
                     
@@ -1672,7 +1633,7 @@ shrface 的样式（Faces）扩展到更多的非 org buffers。目前支持以�
                             
                             
                             
-                                <category scheme="https://hkvim.com/tags/emacs/" term="emacs" label="emacs" />
+                                <category scheme="https://elecming.com/tags/emacs/" term="emacs" label="emacs" />
                             
                         
                     
@@ -1682,17 +1643,17 @@ shrface 的样式（Faces）扩展到更多的非 org buffers。目前支持以�
     
         <entry>
             <title type="text">shrface，让 eww, mu4e, nov.el 拥有 org 的阅读体验</title>
-            <link rel="alternate" type="text/html" href="https://hkvim.com/post/20200419193603-shrface_%E8%AE%A9eww_nov_mu4e%E6%8B%A5%E6%9C%89org%E7%9A%84%E9%98%85%E8%AF%BB%E4%BD%93%E9%AA%8C/" />
-            <id>https://hkvim.com/post/20200419193603-shrface_%E8%AE%A9eww_nov_mu4e%E6%8B%A5%E6%9C%89org%E7%9A%84%E9%98%85%E8%AF%BB%E4%BD%93%E9%AA%8C/</id>
-            <updated>2020-04-10T00:00:00&#43;08:00</updated>
-            <published>2020-04-10T00:00:00&#43;08:00</published>
+            <link rel="alternate" type="text/html" href="https://elecming.com/post/20200419193603-shrface_%E8%AE%A9eww_nov_mu4e%E6%8B%A5%E6%9C%89org%E7%9A%84%E9%98%85%E8%AF%BB%E4%BD%93%E9%AA%8C/" />
+            <id>https://elecming.com/post/20200419193603-shrface_%E8%AE%A9eww_nov_mu4e%E6%8B%A5%E6%9C%89org%E7%9A%84%E9%98%85%E8%AF%BB%E4%BD%93%E9%AA%8C/</id>
+            <updated>2020-04-10T00:00:00&#43;00:00</updated>
+            <published>2020-04-10T00:00:00&#43;00:00</published>
             <author>
                     <name>Damon Chan</name>
-                    <uri>https://hkvim.com/</uri>
+                    <uri>https://elecming.com/</uri>
                     <email>elecming@gmail.com</email>
                     </author>
             <rights>[CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)</rights><summary type="html">什么是 shrface？ shrface 是一个 emacs 的插件（package），它可以让你在 emacs 里像 org mode 一样浏览网页， 阅读 epub 电子书，看电子邮件，又或者是技术文档。
-下载链接  https://github.com/chenyanming/shrface https://emacs-china.org/t/new-package-shrface-eww-dash-doc-nov-mu4e-org/12644 https://www.reddit.com/r/emacs/comments/fyd2o8/new%5Fpackage%5Fshrface%5Fa%5Fshr%5Ffaces%5Fpackage%5Forg%5Flike/  截图                                 </summary>
+下载链接  https://github.com/chenyanming/shrface https://emacs-china.org/t/new-package-shrface-eww-dash-doc-nov-mu4e-org/12644 https://www.reddit.com/r/emacs/comments/fyd2o8/new%5Fpackage%5Fshrface%5Fa%5Fshr%5Ffaces%5Fpackage%5Forg%5Flike/  截图                 </summary>
             
                 <content type="html">&lt;h2 id=&#34;什么是-shrface&#34;&gt;什么是 shrface？&lt;/h2&gt;
 &lt;p&gt;shrface 是一个 emacs 的插件（package），它可以让你在 emacs 里像 org mode 一样浏览网页，
@@ -1704,68 +1665,52 @@ shrface 的样式（Faces）扩展到更多的非 org buffers。目前支持以�
 &lt;li&gt;&lt;a href=&#34;https://www.reddit.com/r/emacs/comments/fyd2o8/new%5Fpackage%5Fshrface%5Fa%5Fshr%5Ffaces%5Fpackage%5Forg%5Flike/&#34;&gt;https://www.reddit.com/r/emacs/comments/fyd2o8/new%5Fpackage%5Fshrface%5Fa%5Fshr%5Ffaces%5Fpackage%5Forg%5Flike/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;截图&#34;&gt;截图&lt;/h2&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;https://hkvim.com/ox-hugo/code-highlight-1.png&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://elecming.com/ox-hugo/code-highlight-1.png&#34;/&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;
-    &lt;img src=&#34;https://hkvim.com/ox-hugo/code-highlight-2.png&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://elecming.com/ox-hugo/code-highlight-2.png&#34;/&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;
-    &lt;img src=&#34;https://hkvim.com/ox-hugo/dash-doc-1.png&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://elecming.com/ox-hugo/dash-doc-1.png&#34;/&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;
-    &lt;img src=&#34;https://hkvim.com/ox-hugo/dash-doc-2.png&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://elecming.com/ox-hugo/dash-doc-2.png&#34;/&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;
-    &lt;img src=&#34;https://hkvim.com/ox-hugo/dash-docs-code.png&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://elecming.com/ox-hugo/dash-docs-code.png&#34;/&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;
-    &lt;img src=&#34;https://hkvim.com/ox-hugo/epub-1.png&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://elecming.com/ox-hugo/epub-1.png&#34;/&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;
-    &lt;img src=&#34;https://hkvim.com/ox-hugo/epub-2.png&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://elecming.com/ox-hugo/epub-2.png&#34;/&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;
-    &lt;img src=&#34;https://hkvim.com/ox-hugo/eww-1.png&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://elecming.com/ox-hugo/eww-1.png&#34;/&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;
-    &lt;img src=&#34;https://hkvim.com/ox-hugo/eww-2.png&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://elecming.com/ox-hugo/eww-2.png&#34;/&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;
-    &lt;img src=&#34;https://hkvim.com/ox-hugo/imenu-1.png&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://elecming.com/ox-hugo/imenu-1.png&#34;/&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;
-    &lt;img src=&#34;https://hkvim.com/ox-hugo/imenu-2.png&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://elecming.com/ox-hugo/imenu-2.png&#34;/&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;
-    &lt;img src=&#34;https://hkvim.com/ox-hugo/imenu-3.png&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://elecming.com/ox-hugo/imenu-3.png&#34;/&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;
-    &lt;img src=&#34;https://hkvim.com/ox-hugo/imenu-4.png&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://elecming.com/ox-hugo/imenu-4.png&#34;/&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;
-    &lt;img src=&#34;https://hkvim.com/ox-hugo/indent-1.png&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://elecming.com/ox-hugo/indent-1.png&#34;/&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;
-    &lt;img src=&#34;https://hkvim.com/ox-hugo/indent-2.png&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://elecming.com/ox-hugo/indent-2.png&#34;/&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;
-    &lt;img src=&#34;https://hkvim.com/ox-hugo/mu4e.png&#34;/&gt; 
+&lt;figure&gt;&lt;img src=&#34;https://elecming.com/ox-hugo/mu4e.png&#34;/&gt;
 &lt;/figure&gt;
 
 </content>
@@ -1780,7 +1725,7 @@ shrface 的样式（Faces）扩展到更多的非 org buffers。目前支持以�
                             
                             
                             
-                                <category scheme="https://hkvim.com/categories/technology/" term="Technology" label="Technology" />
+                                <category scheme="https://elecming.com/categories/technology/" term="Technology" label="Technology" />
                             
                         
                     
@@ -1790,7 +1735,7 @@ shrface 的样式（Faces）扩展到更多的非 org buffers。目前支持以�
                             
                             
                             
-                                <category scheme="https://hkvim.com/tags/emacs/" term="emacs" label="emacs" />
+                                <category scheme="https://elecming.com/tags/emacs/" term="emacs" label="emacs" />
                             
                         
                     
@@ -1800,13 +1745,13 @@ shrface 的样式（Faces）扩展到更多的非 org buffers。目前支持以�
     
         <entry>
             <title type="text">About</title>
-            <link rel="alternate" type="text/html" href="https://hkvim.com/post/about/" />
-            <id>https://hkvim.com/post/about/</id>
-            <updated>2020-10-18T14:39:05&#43;08:00</updated>
+            <link rel="alternate" type="text/html" href="https://elecming.com/post/about/" />
+            <id>https://elecming.com/post/about/</id>
+            <updated>2020-10-18T15:39:05&#43;09:00</updated>
             <published>0001-01-01T00:00:00&#43;00:00</published>
             <author>
                     <name>Damon Chan</name>
-                    <uri>https://hkvim.com/</uri>
+                    <uri>https://elecming.com/</uri>
                     <email>elecming@gmail.com</email>
                     </author>
             <rights>[CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)</rights><summary type="html">About Me My name is Damon Chan. I live in Hong Kong.

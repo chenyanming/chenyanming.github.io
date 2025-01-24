@@ -1,62 +1,56 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>https://hkvim.com/zh-tw/categories/</loc>
+    <loc>https://elecming.com/zh-tw/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://hkvim.com/categories/"
+                href="https://elecming.com/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://hkvim.com/zh-cn/categories/"
+                href="https://elecming.com/zh-cn/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="https://hkvim.com/zh-tw/categories/"
+                href="https://elecming.com/zh-tw/categories/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://hkvim.com/zh-tw/</loc>
+  </url><url>
+    <loc>https://elecming.com/zh-tw/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://hkvim.com/"
+                href="https://elecming.com/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://hkvim.com/zh-cn/"
+                href="https://elecming.com/zh-cn/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="https://hkvim.com/zh-tw/"
+                href="https://elecming.com/zh-tw/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://hkvim.com/zh-tw/tags/</loc>
+  </url><url>
+    <loc>https://elecming.com/zh-tw/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://hkvim.com/tags/"
+                href="https://elecming.com/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://hkvim.com/zh-cn/tags/"
+                href="https://elecming.com/zh-cn/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="https://hkvim.com/zh-tw/tags/"
+                href="https://elecming.com/zh-tw/tags/"
                 />
   </url>
-  
 </urlset>

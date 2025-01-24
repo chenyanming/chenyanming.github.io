@@ -8,9 +8,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Damon Chan 的記事</title>
-        <link>https://hkvim.com/zh-tw/</link>
+        <link>https://elecming.com/zh-tw/</link>
         <description>I love Programming, writing, and sharing interesting ideas. I believe only the ideas that we actually live are of any value.</description>
-        <generator>Hugo 0.74.3 https://gohugo.io/</generator>
+        <generator>Hugo 0.92.2 https://gohugo.io/</generator>
         
             <language>en</language>
         
@@ -23,9 +23,9 @@
         
             <copyright>[CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)</copyright>
         
-        <lastBuildDate>Tue, 16 Feb 2021 10:47:15 &#43;0800</lastBuildDate>
+        <lastBuildDate>Fri, 24 Jan 2025 19:38:22 &#43;0900</lastBuildDate>
         
-            <atom:link rel="self" type="application/rss&#43;xml" href="https://hkvim.com/zh-tw/rss.xml" />
+            <atom:link rel="self" type="application/rss&#43;xml" href="https://elecming.com/zh-tw/rss.xml" />
         
         
     </channel>

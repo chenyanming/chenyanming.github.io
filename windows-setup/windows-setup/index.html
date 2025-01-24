@@ -3,7 +3,7 @@
     <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
     <meta charset="UTF-8" />
 
-    <meta name="generator" content="Hugo 0.74.3" /><meta name="theme-color" content="#fff" />
+    <meta name="generator" content="Hugo 0.92.2" /><meta name="theme-color" content="#fff" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
@@ -14,11 +14,11 @@
 
     <title>The ultimate Emacs hacking tutorial in Windows 10 WSL 2 | Damon Chan&#39;s Blog</title>
 
-    <link rel="stylesheet" href="/css/meme.min.949109d49b69f67f240b55bcd40868dc6cd77f19f49a1a9bd72e128a6d9e5299.css" integrity="sha256-lJEJ1Jtp9n8kC1W81Aho3GzXfxn0mhqb1y4Sim2eUpk=" />
+    <link rel="stylesheet" href="/css/meme.min.6172c5328c35dff34f1f376da63a914bc153cf2d58ba3d6bae3ac21f38f50d78.css" integrity="sha256-YXLFMow13/NPHzdtpjqRS8FTzy1Yuj1rrjrCHzj1DXg=" />
 
     
     
-        <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.8/lunr.min.js" defer></script><script src="/js/meme.min.f56a2fc835410ff5713b8959ef730ac5523f5dd56af0971e8a659dea619373c9.js" integrity="sha256-9WovyDVBD/VxO4lZ73MKxVI/XdVq8JceimWd6mGTc8k="></script>
+        <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.8/lunr.min.js" defer></script><script src="/js/meme.min.c3c32a6a40faf686626c2fcb450e38f8a9de2f27520b9e8026ab454e6a28134e.js" integrity="sha256-w8MqakD69oZibC/LRQ44&#43;KneLydSC56AJqtFTmooE04="></script>
 
     
 
@@ -50,7 +50,7 @@ What is WSL?  Earlier on August 2, 2016, Microsoft released Windows Subsystem fo
     
 
     
-    <link rel="canonical" href="https://hkvim.com/windows-setup/windows-setup/" />
+    <link rel="canonical" href="https://elecming.com/windows-setup/windows-setup/" />
     
 
 <script type="application/ld+json">
@@ -58,24 +58,24 @@ What is WSL?  Earlier on August 2, 2016, Microsoft released Windows Subsystem fo
         "@context": "https://schema.org",
         "@type": "WebPage",
         "datePublished": "2020-09-07T00:00:00+00:00",
-        "dateModified": "2021-02-16T10:47:03+08:00",
-        "url": "https://hkvim.com/windows-setup/windows-setup/",
+        "dateModified": "2020-10-18T12:59:54+09:00",
+        "url": "https://elecming.com/windows-setup/windows-setup/",
         "name": "The ultimate Emacs hacking tutorial in Windows 10 WSL 2",
         "description": "Do you think Emacs's performance in windows is bad? Do you really want to use a native Speed Emacs in Windows? Do you hate the unnatural path transition between windows convention and Linux convention? Do you feel frustrated when you try to install and configure Emacs in WSL? Do you just want to taste the power of Emacs running in WSL 2?\n This tutorial may help you :)\nWhat is WSL?  Earlier on August 2, 2016, Microsoft released Windows Subsystem for Linux (WSL), enabling the native way to run Linux Tools in Windows 10 and Windows Server 2019.\n In May 2019, WSL 2 was introduced, by importing the Real Linux Kernel through Hyper-V features (in a Virtual Machine Environment), providing the users with the full \u0026 immerse way to work with Linux under windows, with 20 times the read/write performances of WSL 1.\n For Windows Emacs Users, here are some advantages/disadvantages for you to consider before switching the WSL 2:",
-        "image": "https://hkvim.com/icons/apple-touch-icon.png",
+        "image": "https://elecming.com/icons/apple-touch-icon.png",
         "license": "[CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)",
         "publisher": {
             "@type": "Organization",
             "name": "Damon Chan's Blog",
             "logo": {
                 "@type": "ImageObject",
-                "url": "https://hkvim.com/icons/apple-touch-icon.png"
+                "url": "https://elecming.com/icons/apple-touch-icon.png"
             },
-            "url": "https://hkvim.com/"
+            "url": "https://elecming.com/"
         },
         "mainEntityOfPage": {
             "@type": "WebSite",
-            "@id": "https://hkvim.com/"
+            "@id": "https://elecming.com/"
         }
     }
 </script>
@@ -95,9 +95,9 @@ What is WSL?  Earlier on August 2, 2016, Microsoft released Windows Subsystem fo
 What is WSL?  Earlier on August 2, 2016, Microsoft released Windows Subsystem for Linux (WSL), enabling the native way to run Linux Tools in Windows 10 and Windows Server 2019.
  In May 2019, WSL 2 was introduced, by importing the Real Linux Kernel through Hyper-V features (in a Virtual Machine Environment), providing the users with the full &amp; immerse way to work with Linux under windows, with 20 times the read/write performances of WSL 1.
  For Windows Emacs Users, here are some advantages/disadvantages for you to consider before switching the WSL 2:" />
-<meta property="og:url" content="https://hkvim.com/windows-setup/windows-setup/" />
+<meta property="og:url" content="https://elecming.com/windows-setup/windows-setup/" />
 <meta property="og:site_name" content="Damon Chan&#39;s Blog" />
-<meta property="og:locale" content="en" /><meta property="og:image" content="https://hkvim.com/icons/apple-touch-icon.png" />
+<meta property="og:locale" content="en" /><meta property="og:image" content="https://elecming.com/icons/apple-touch-icon.png" />
     <meta property="og:type" content="website" />
 
         <link rel="preconnect" href="https://www.google-analytics.com" crossorigin />
@@ -259,7 +259,7 @@ What is WSL?  Earlier on August 2, 2016, Microsoft released Windows Subsystem fo
     
     
         
-        <time datetime="2021-02-16T10:47:03&#43;08:00" class="post-meta-item modified dt-updated"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M400 64h-48V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H160V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm-6 400H54a6 6 0 0 1-6-6V160h352v298a6 6 0 0 1-6 6zm-52.849-200.65L198.842 404.519c-4.705 4.667-12.303 4.637-16.971-.068l-75.091-75.699c-4.667-4.705-4.637-12.303.068-16.971l22.719-22.536c4.705-4.667 12.303-4.637 16.97.069l44.104 44.461 111.072-110.181c4.705-4.667 12.303-4.637 16.971.068l22.536 22.718c4.667 4.705 4.636 12.303-.069 16.97z"/></svg>&nbsp;2021.2.16</time>
+        <time datetime="2020-10-18T12:59:54&#43;09:00" class="post-meta-item modified dt-updated"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon post-meta-icon"><path d="M400 64h-48V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H160V12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v52H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm-6 400H54a6 6 0 0 1-6-6V160h352v298a6 6 0 0 1-6 6zm-52.849-200.65L198.842 404.519c-4.705 4.667-12.303 4.637-16.971-.068l-75.091-75.699c-4.667-4.705-4.637-12.303.068-16.971l22.719-22.536c4.705-4.667 12.303-4.637 16.97.069l44.104 44.461 111.072-110.181c4.705-4.667 12.303-4.637 16.971.068l22.536 22.718c4.667 4.705 4.636 12.303-.069 16.97z"/></svg>&nbsp;2020.10.18</time>
     
     
     
@@ -271,7 +271,7 @@ What is WSL?  Earlier on August 2, 2016, Microsoft released Windows Subsystem fo
     
     
         
-        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;2918</span>
+        <span class="post-meta-item wordcount"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon post-meta-icon"><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;2855</span>
     
     
         
@@ -371,77 +371,75 @@ What is WSL?  Earlier on August 2, 2016, Microsoft released Windows Subsystem fo
 </li>
 <li><a id="contents:headline-37" href="#headline-37">Fix WSL_INTEROP issue</a>
 </li>
-<li><a id="contents:headline-38" href="#headline-38">Setup Audio</a>
-</li>
-<li><a id="contents:headline-39" href="#headline-39">Optional: Setup Python Development Environment</a>
+<li><a id="contents:headline-38" href="#headline-38">Optional: Setup Python Development Environment</a>
 <ul>
-<li><a id="contents:headline-40" href="#headline-40">pyenv</a>
+<li><a id="contents:headline-39" href="#headline-39">pyenv</a>
 </li>
-<li><a id="contents:headline-41" href="#headline-41">mypyls</a>
+<li><a id="contents:headline-40" href="#headline-40">mypyls</a>
 </li>
 </ul>
 </li>
-<li><a id="contents:headline-42" href="#headline-42">Optional: Setup Node.js Development Environment</a>
+<li><a id="contents:headline-41" href="#headline-41">Optional: Setup Node.js Development Environment</a>
 <ul>
-<li><a id="contents:headline-43" href="#headline-43">node</a>
+<li><a id="contents:headline-42" href="#headline-42">node</a>
 </li>
 </ul>
 </li>
-<li><a id="contents:headline-44" href="#headline-44">Optional: Setup Rust Development Environment</a>
+<li><a id="contents:headline-43" href="#headline-43">Optional: Setup Rust Development Environment</a>
 </li>
-<li><a id="contents:headline-45" href="#headline-45">Optional: Install other useful packages</a>
+<li><a id="contents:headline-44" href="#headline-44">Optional: Install other useful packages</a>
 <ul>
-<li><a id="contents:headline-46" href="#headline-46">apt</a>
+<li><a id="contents:headline-45" href="#headline-45">apt</a>
 </li>
-<li><a id="contents:headline-47" href="#headline-47">pdf-tools</a>
+<li><a id="contents:headline-46" href="#headline-46">pdf-tools</a>
 </li>
-<li><a id="contents:headline-48" href="#headline-48">rga</a>
+<li><a id="contents:headline-47" href="#headline-47">rga</a>
 </li>
-<li><a id="contents:headline-49" href="#headline-49">Rime</a>
+<li><a id="contents:headline-48" href="#headline-48">Rime</a>
 <ul>
-<li><a id="contents:headline-50" href="#headline-50">Install and setup Rime</a>
+<li><a id="contents:headline-49" href="#headline-49">Install and setup Rime</a>
 </li>
-<li><a id="contents:headline-51" href="#headline-51">plum</a>
-</li>
-</ul>
-</li>
-<li><a id="contents:headline-52" href="#headline-52">sdcv</a>
-</li>
-<li><a id="contents:headline-53" href="#headline-53">telega</a>
+<li><a id="contents:headline-50" href="#headline-50">plum</a>
 </li>
 </ul>
 </li>
-<li><a id="contents:headline-54" href="#headline-54">An .zshrc example</a>
+<li><a id="contents:headline-51" href="#headline-51">sdcv</a>
 </li>
-<li><a id="contents:headline-55" href="#headline-55">Export WSL (Backup WSL)</a>
+<li><a id="contents:headline-52" href="#headline-52">telega</a>
 </li>
 </ul>
 </li>
-<li><a id="contents:headline-56" href="#headline-56">An Emacs Shortcut</a>
+<li><a id="contents:headline-53" href="#headline-53">An .zshrc example</a>
+</li>
+<li><a id="contents:headline-54" href="#headline-54">Export WSL (Backup WSL)</a>
+</li>
+</ul>
+</li>
+<li><a id="contents:headline-55" href="#headline-55">An Emacs Shortcut</a>
 <ul>
-<li><a id="contents:headline-57" href="#headline-57">Emacs.sh</a>
+<li><a id="contents:headline-56" href="#headline-56">Emacs.sh</a>
 </li>
-<li><a id="contents:headline-58" href="#headline-58">Emacs.bat</a>
+<li><a id="contents:headline-57" href="#headline-57">Emacs.bat</a>
 </li>
-<li><a id="contents:headline-59" href="#headline-59">Double click <code>Emacs.bat</code> to launch Emacs.</a>
+<li><a id="contents:headline-58" href="#headline-58">Double click <code>Emacs.bat</code> to launch Emacs.</a>
 </li>
 </ul>
 </li>
-<li><a id="contents:headline-60" href="#headline-60">Some Emacs hacking ideas</a>
+<li><a id="contents:headline-59" href="#headline-59">Some Emacs hacking ideas</a>
 <ul>
-<li><a id="contents:headline-61" href="#headline-61">Browser URL with default browser</a>
+<li><a id="contents:headline-60" href="#headline-60">Browser URL with default browser</a>
 </li>
-<li><a id="contents:headline-62" href="#headline-62">If you a calibredb user, you can add the following advice to open the PDF/EPUB with windows default programs</a>
+<li><a id="contents:headline-61" href="#headline-61">If you a calibredb user, you can add the following advice to open the PDF/EPUB with windows default programs</a>
 </li>
-<li><a id="contents:headline-63" href="#headline-63">Open the file with windows default programs or reveal it in explorer</a>
+<li><a id="contents:headline-62" href="#headline-62">Open the file with windows default programs or reveal it in explorer</a>
 </li>
 </ul>
 </li>
-<li><a id="contents:headline-64" href="#headline-64">References</a>
+<li><a id="contents:headline-63" href="#headline-63">References</a>
 </li>
-<li><a id="contents:headline-65" href="#headline-65">Footnotes</a>
+<li><a id="contents:headline-64" href="#headline-64">Footnotes</a>
 </li>
-<li><a id="contents:headline-66" href="#headline-66">COMMENT Local Variables</a>
+<li><a id="contents:headline-65" href="#headline-65">COMMENT Local Variables</a>
 </li>
 </ul>
 </nav><div class="post-body e-content">
@@ -467,24 +465,12 @@ Advantages
 </h3>
 <div id="outline-text-headline-2" class="outline-text-3">
 <ol>
-<li>
-<p>The performance of <a href="https://github.com/magit/magit" target="_blank" rel="noopener">Magit</a> is way faster than the GNU compiled original windows <a href="https://ftp.gnu.org/gnu/emacs/windows/emacs-27/" target="_blank" rel="noopener">Emacs-27</a> binaries.</p>
-</li>
-<li>
-<p>The Font Rendering is better.</p>
-</li>
-<li>
-<p>No flickering.</p>
-</li>
-<li>
-<p><a href="https://docs.microsoft.com/en-us/windows/wsl/interop" target="_blank" rel="noopener">interoperability</a> between Windows and Linux.</p>
-</li>
-<li>
-<p>Native OneDrive support.</p>
-</li>
-<li>
-<p>Super fast boot up time for Emacs.</p>
-</li>
+<li>The performance of <a href="https://github.com/magit/magit" target="_blank" rel="noopener">Magit</a> is way faster than the GNU compiled original windows <a href="https://ftp.gnu.org/gnu/emacs/windows/emacs-27/" target="_blank" rel="noopener">Emacs-27</a> binaries.</li>
+<li>The Font Rendering is better.</li>
+<li>No flickering.</li>
+<li><a href="https://docs.microsoft.com/en-us/windows/wsl/interop" target="_blank" rel="noopener">interoperability</a> between Windows and Linux.</li>
+<li>Native OneDrive support.</li>
+<li>Super fast boot up time for Emacs.</li>
 </ol>
 </div>
 </div>
@@ -494,12 +480,8 @@ Disadvantages
 </h3>
 <div id="outline-text-headline-3" class="outline-text-3">
 <ol>
-<li>
-<p>The network configuration is a pain, workaround is available.</p>
-</li>
-<li>
-<p>X11 may lost connection when network changes.</p>
-</li>
+<li>The network configuration is a pain, workaround is available.</li>
+<li>X11 may lost connection when network changes.</li>
 </ol>
 </div>
 </div>
@@ -539,10 +521,10 @@ Install WSL 2
 <div class="src src-sh">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux</code></pre></td></tr></table></div>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux</code></pre></td></tr></table></div>
 </div>
 </div>
 </div>
@@ -556,10 +538,10 @@ Enable WSL 2
 <div class="src src-sh">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart</code></pre></td></tr></table></div>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart</code></pre></td></tr></table></div>
 </div>
 </div>
 </div>
@@ -573,10 +555,10 @@ Check WSL version
 <div class="src src-sh">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">wsl -l -v</code></pre></td></tr></table></div>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">wsl -l -v</code></pre></td></tr></table></div>
 </div>
 </div>
 </div>
@@ -592,10 +574,10 @@ Set default WSL version to 2
 <div class="src src-sh">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">wsl.exe --set-default-version <span class="m">2</span></code></pre></td></tr></table></div>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">wsl.exe --set-default-version <span class="m">2</span></code></pre></td></tr></table></div>
 </div>
 </div>
 </div>
@@ -619,10 +601,10 @@ Optional: Convert WSL 1 to WSL 2
 <div class="src src-sh">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">wsl.exe --set-version Ubuntu-18.04 <span class="m">2</span></code></pre></td></tr></table></div>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">wsl.exe --set-version Ubuntu-18.04 <span class="m">2</span></code></pre></td></tr></table></div>
 </div>
 </div>
 </div>
@@ -639,34 +621,22 @@ Choosing the terminal
 <p>
 Windows Terminal has the following benefits compared with other terminals:</p>
 <ol>
-<li>
-<p>Windows Terminal is multi-tabs and multi-panels.</p>
-</li>
-<li>
-<p>UTF8 &amp; Unicode support.</p>
-</li>
-<li>
-<p>Supports Command Prompt, PowerShell, and WSL.</p>
-</li>
-<li>
-<p>GPU accelerated Text Rendering Engine.</p>
-</li>
-<li>
-<p>Custom Themes, styles and configurations.</p>
-</li>
-<li>
-<p>Modern and user-friendly.</p>
-</li>
-<li>
-<p>Open Source and Official Support.</p>
+<li>Windows Terminal is multi-tabs and multi-panels.</li>
+<li>UTF8 &amp; Unicode support.</li>
+<li>Supports Command Prompt, PowerShell, and WSL.</li>
+<li>GPU accelerated Text Rendering Engine.</li>
+<li>Custom Themes, styles and configurations.</li>
+<li>Modern and user-friendly.</li>
+<li>Open Source and Official Support.</li>
+</ol>
 <div id="outline-container-headline-15" class="outline-4">
 <h4 id="headline-15">
 Install windows Terminal in Microsoft Store
 </h4>
-</div>
-</li>
-</ol>
+<div id="outline-text-headline-15" class="outline-text-4">
 <p><img src="windows-terminal.png" alt="windows-terminal.png" /><span class="caption">◎ windows-terminal.png</span></p>
+</div>
+</div>
 <div id="outline-container-headline-16" class="outline-4">
 <h4 id="headline-16">
 Windows Terminal
@@ -681,7 +651,7 @@ Add &#34;cursorShape&#34; and &#34;fontFace&#34; to the &#34;defaults&#34; secti
 <div class="src src-sh">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -689,7 +659,7 @@ Add &#34;cursorShape&#34; and &#34;fontFace&#34; to the &#34;defaults&#34; secti
 </span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh"><span class="s2">&#34;defaults&#34;</span>:
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="s2">&#34;defaults&#34;</span>:
 <span class="o">{</span>
     // Put settings here that you want to apply to all profiles.
     <span class="s2">&#34;cursorShape&#34;</span>: <span class="s2">&#34;filledBox&#34;</span> ,
@@ -708,7 +678,7 @@ Update the home directory
 <div class="src src-sh">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -718,7 +688,7 @@ Update the home directory
 </span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh"><span class="o">{</span>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="o">{</span>
     <span class="s2">&#34;guid&#34;</span>: <span class="s2">&#34;{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}&#34;</span>,
     <span class="s2">&#34;hidden&#34;</span>: false,
     <span class="s2">&#34;name&#34;</span>: <span class="s2">&#34;Ubuntu-18.04&#34;</span>,
@@ -753,12 +723,12 @@ zsh
 <div class="src src-sh">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">sudo apt install zsh
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">sudo apt install zsh
 chsh -s <span class="k">$(</span>which zsh<span class="k">)</span>
 sh -c <span class="s2">&#34;</span><span class="k">$(</span>curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh<span class="k">)</span><span class="s2">&#34;</span></code></pre></td></tr></table></div>
 </div>
@@ -771,21 +741,15 @@ sh -c <span class="s2">&#34;</span><span class="k">$(</span>curl -fsSL https://r
 Fonts
 </h3>
 <div id="outline-text-headline-21" class="outline-text-3">
-<p>Just create a soft link (or copy all fonts) from Windows to Ubuntu:</p>
+<p>Just create a soft link from Windows to Ubuntu:</p>
 <div class="src src-sh">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh"><span class="c1"># share the font by creating a soft link</span>
-<span class="c1"># ln -s /mnt/c/Windows/Fonts ~/.fonts</span>
-<span class="c1"># Or copy the fonts to wsl2&#39;s local directory for best performance, and also faster boot up time.</span>
-cp -r /mnt/c/Windows/Fonts ~/.fonts
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">ln -s /mnt/c/Windows/Fonts ~/.fonts
 fc-cache -fv</code></pre></td></tr></table></div>
 </div>
 </div>
@@ -801,10 +765,10 @@ OneDrive
 <div class="src src-sh">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">ln -s /mnt/c/Users/elecm/OneDrive ~/OneDrive</code></pre></td></tr></table></div>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">ln -s /mnt/c/Users/elecm/OneDrive ~/OneDrive</code></pre></td></tr></table></div>
 </div>
 </div>
 </div>
@@ -824,10 +788,10 @@ Install VcXsrv
 <div class="src src-sh">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">choco install vcxsrv</code></pre></td></tr></table></div>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">choco install vcxsrv</code></pre></td></tr></table></div>
 </div>
 </div>
 </div>
@@ -858,17 +822,11 @@ Configure VcXsrv
 <p>Save configuration
 PS:</p>
 <ul>
-<li>
-<p>Press &#34;Win + R&#34; -&gt; insert <code>shell:startup</code> -&gt; Press Enter</p>
-</li>
-<li>
-<p>Save to startup can start X11 server when system boots</p>
-</li>
+<li>Press &#34;Win + R&#34; -&gt; insert <code>shell:startup</code> -&gt; Press Enter</li>
+<li>Save to startup can start X11 server when system boots</li>
 </ul>
 </li>
-<li>
-<p>Finish</p>
-</li>
+<li>Finish</li>
 </ul>
 </li>
 <li>
@@ -889,11 +847,11 @@ Disable <code>/etc/resolv.conf</code> generation
 <div class="src src-sh">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh"><span class="o">[</span>network<span class="o">]</span>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="o">[</span>network<span class="o">]</span>
 <span class="nv">generateResolvConf</span> <span class="o">=</span> false</code></pre></td></tr></table></div>
 </div>
 </div>
@@ -909,14 +867,14 @@ Setup custom name servers and point to google
 <div class="src src-sh">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh"><span class="c1"># This file was automatically generated by WSL. To stop automatic generation of this file, add the following entry to /etc/wsl.conf:</span>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="c1"># This file was automatically generated by WSL. To stop automatic generation of this file, add the following entry to /etc/wsl.conf:</span>
 <span class="c1"># [network]</span>
 <span class="c1"># generateResolvConf = false</span>
 nameserver 8.8.8.8
@@ -935,11 +893,11 @@ Export DISPLAY and LIBGL_ALWAYS_INDIRECT settings to <code>~/.zshrc</code>
 <div class="src src-sh">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh"><span class="nb">export</span> <span class="nv">DISPLAY</span><span class="o">=</span><span class="k">$(</span>ip route <span class="p">|</span> awk <span class="s1">&#39;{print $3; exit}&#39;</span><span class="k">)</span>:0
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="nb">export</span> <span class="nv">DISPLAY</span><span class="o">=</span><span class="k">$(</span>ip route <span class="p">|</span> awk <span class="s1">&#39;{print $3; exit}&#39;</span><span class="k">)</span>:0
 <span class="nb">export</span> <span class="nv">LIBGL_ALWAYS_INDIRECT</span><span class="o">=</span><span class="m">1</span></code></pre></td></tr></table></div>
 </div>
 </div>
@@ -964,17 +922,15 @@ HiDPI
 <p>Right click <code>XLaunch</code> (VcXsrv) -&gt; Compatibility -&gt; Change high DPI settings -&gt; Tick Override high DPI scaling Behavior, Application.</p>
 <p><img src="vcxsrv-4.png" alt="vcxsrv-4.png" /><span class="caption">◎ vcxsrv-4.png</span></p>
 </li>
-<li>
-<p>Add the following statement to <code>.zshrc</code></p>
-</li>
+<li>Add the following statement to <code>.zshrc</code></li>
 </ol>
 <div class="src src-sh">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh"><span class="nb">export</span> <span class="nv">GDK_SCALE</span><span class="o">=</span><span class="m">2</span></code></pre></td></tr></table></div>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="nb">export</span> <span class="nv">GDK_SCALE</span><span class="o">=</span><span class="m">2</span></code></pre></td></tr></table></div>
 </div>
 </div>
 </div>
@@ -993,21 +949,17 @@ Supposed VcXsrv is installed in <code>C:\Program Files\VcXsrv\</code>,</p>
 <div class="src src-sh">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">sudo apt install big-cursor</code></pre></td></tr></table></div>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">sudo apt install big-cursor</code></pre></td></tr></table></div>
 </div>
 </div>
 </div>
 </li>
-<li>
-<p>Rename
-<code>C:\Program Files\VcXsrv\fonts\misc\cursor.pcf.gz</code> to <code>C:\Program Files\VcXsrv\fonts\misc\cursor-small.pcf.gz</code></p>
-</li>
-<li>
-<p>Copy <code>/usr/share/fonts/X11/misc/big-cursor.pcf.gz</code> from WSL to as <code>C:\Program Files\VcXsrv\fonts\misc\cursor.pcf.gz</code></p>
-</li>
+<li>Rename
+<code>C:\Program Files\VcXsrv\fonts\misc\cursor.pcf.gz</code> to <code>C:\Program Files\VcXsrv\fonts\misc\cursor-small.pcf.gz</code></li>
+<li>Copy <code>/usr/share/fonts/X11/misc/big-cursor.pcf.gz</code> from WSL to as <code>C:\Program Files\VcXsrv\fonts\misc\cursor.pcf.gz</code></li>
 </ol>
 </div>
 </div>
@@ -1027,7 +979,7 @@ install dependencies
 <div class="src src-sh">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1045,7 +997,7 @@ install dependencies
 </span><span class="lnt">16
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">sudo apt install -y autoconf automake autotools-dev bsd-mailx build-essential <span class="se">\
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">sudo apt install -y autoconf automake autotools-dev bsd-mailx build-essential <span class="se">\
 </span><span class="se"></span>    diffstat gnutls-dev imagemagick libasound2-dev libc6-dev libdatrie-dev <span class="se">\
 </span><span class="se"></span>    libdbus-1-dev libgconf2-dev libgif-dev libgnutls28-dev libgpm-dev libgtk2.0-dev <span class="se">\
 </span><span class="se"></span>    libgtk-3-dev libice-dev libjpeg-dev liblockfile-dev liblqr-1-0 libm17n-dev <span class="se">\
@@ -1074,7 +1026,7 @@ Download, compile and install
 <div class="src src-sh">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -1084,7 +1036,7 @@ Download, compile and install
 </span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh"><span class="nb">cd</span> ~
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="nb">cd</span> ~
 wget https://ftp.gnu.org/pub/gnu/emacs/emacs-27.1.tar.gz
 tar -xzvf emacs-27.1.tar.gz
 <span class="nb">cd</span> emacs-27.1
@@ -1105,11 +1057,11 @@ Install doom
 <div class="src src-sh">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">git clone --depth <span class="m">1</span> https://github.com/hlissner/doom-emacs ~/.emacs.d
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">git clone --depth <span class="m">1</span> https://github.com/hlissner/doom-emacs ~/.emacs.d
 ~/.emacs.d/bin/doom install</code></pre></td></tr></table></div>
 </div>
 </div>
@@ -1124,25 +1076,19 @@ Start Emacs
 <div class="src src-sh">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">emacs</code></pre></td></tr></table></div>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">emacs</code></pre></td></tr></table></div>
 </div>
 </div>
 </div>
 <p>
 Please notice:</p>
 <ol>
-<li>
-<p>The first time to start Emacs may need some times (Every time the first time to start Emacs after system boots, it also needs some time at times), font setting, x11 checking, sound checking etc, please wait a moment. Normally it will finish within one or two minute.</p>
-</li>
-<li>
-<p>After refreshing font setting through <code>fc-cache -fv</code>, Emacs will take some time to configure the font setting, but it will only conduct one time.</p>
-</li>
-<li>
-<p>The second time to start Emacs will resume to the normal startup time.</p>
-</li>
+<li>The first time to start Emacs may need some times (Every time the first time to start Emacs after system boots, it also needs some time at times), font setting, x11 checking, sound checking etc, please wait a moment. Normally it will finish within one or two minute.</li>
+<li>After refreshing font setting through <code>fc-cache -fv</code>, Emacs will take some time to configure the font setting, but it will only conduct one time.</li>
+<li>The second time to start Emacs will resume to the normal startup time.</li>
 </ol>
 </div>
 </div>
@@ -1159,7 +1105,7 @@ Add the following to <code>.zshrc</code></p>
 <div class="src src-sh">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1171,7 +1117,7 @@ Add the following to <code>.zshrc</code></p>
 </span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh"><span class="c1"># fix interop</span>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="c1"># fix interop</span>
 fix_wsl2_interop<span class="o">()</span> <span class="o">{</span>
 	<span class="k">for</span> i in <span class="k">$(</span>pstree -np -s <span class="nv">$$</span> <span class="p">|</span> grep -o -E <span class="s1">&#39;[0-9]+&#39;</span><span class="k">)</span><span class="p">;</span> <span class="k">do</span>
 		<span class="k">if</span> <span class="o">[[</span> -e <span class="s2">&#34;/run/WSL/</span><span class="si">${</span><span class="nv">i</span><span class="si">}</span><span class="s2">_interop&#34;</span> <span class="o">]]</span><span class="p">;</span> <span class="k">then</span>
@@ -1188,39 +1134,18 @@ fix_wsl2_interop<span class="o">()</span> <span class="o">{</span>
 </div>
 <div id="outline-container-headline-38" class="outline-3">
 <h3 id="headline-38">
-Setup Audio
-</h3>
-<div id="outline-text-headline-38" class="outline-text-3">
-<p>Add the following to <code>.zshrc</code></p>
-<div class="src src-sh">
-<div class="highlight"><div class="chroma">
-<div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh"><span class="nb">export</span> <span class="nv">PULSE_SERVER</span><span class="o">=</span>tcp:<span class="k">$(</span>ip route <span class="p">|</span> awk <span class="s1">&#39;{print $3; exit}&#39;</span><span class="k">)</span></code></pre></td></tr></table></div>
-</div>
-</div>
-</div>
-<p>
-In windows side, setup PulseAudio server,
-Follow <a href="https://github.com/microsoft/WSL/issues/5816" target="_blank" rel="noopener">https://github.com/microsoft/WSL/issues/5816</a></p>
-</div>
-</div>
-<div id="outline-container-headline-39" class="outline-3">
-<h3 id="headline-39">
 Optional: Setup Python Development Environment
 </h3>
-<div id="outline-text-headline-39" class="outline-text-3">
-<div id="outline-container-headline-40" class="outline-4">
-<h4 id="headline-40">
+<div id="outline-text-headline-38" class="outline-text-3">
+<div id="outline-container-headline-39" class="outline-4">
+<h4 id="headline-39">
 pyenv
 </h4>
-<div id="outline-text-headline-40" class="outline-text-4">
+<div id="outline-text-headline-39" class="outline-text-4">
 <div class="src src-sh">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -1229,7 +1154,7 @@ pyenv
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">sudo apt-get install git gcc make openssl libssl-dev libbz2-dev libreadline-dev libsqlite3-dev libffi-dev
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">sudo apt-get install git gcc make openssl libssl-dev libbz2-dev libreadline-dev libsqlite3-dev libffi-dev
 git clone https://github.com/pyenv/pyenv.git ~/.pyenv
 <span class="nb">echo</span> <span class="s1">&#39;export PYENV_ROOT=&#34;$HOME/.pyenv&#34;&#39;</span> &gt;&gt; ~/.zshrc
 <span class="nb">echo</span> <span class="s1">&#39;export PATH=&#34;$PYENV_ROOT/bin:$PATH&#34;&#39;</span> &gt;&gt; ~/.zshrc
@@ -1241,34 +1166,34 @@ pyenv global 3.7.9</code></pre></td></tr></table></div>
 </div>
 </div>
 </div>
-<div id="outline-container-headline-41" class="outline-4">
-<h4 id="headline-41">
+<div id="outline-container-headline-40" class="outline-4">
+<h4 id="headline-40">
 mypyls
 </h4>
-<div id="outline-text-headline-41" class="outline-text-4">
+<div id="outline-text-headline-40" class="outline-text-4">
 <p><strong>mspyls</strong> can be installed by typing <code class="verbatim">M-x lsp-install-server RET mspyls</code>.</p>
 </div>
 </div>
 </div>
 </div>
-<div id="outline-container-headline-42" class="outline-3">
-<h3 id="headline-42">
+<div id="outline-container-headline-41" class="outline-3">
+<h3 id="headline-41">
 Optional: Setup Node.js Development Environment
 </h3>
-<div id="outline-text-headline-42" class="outline-text-3">
-<div id="outline-container-headline-43" class="outline-4">
-<h4 id="headline-43">
+<div id="outline-text-headline-41" class="outline-text-3">
+<div id="outline-container-headline-42" class="outline-4">
+<h4 id="headline-42">
 node
 </h4>
-<div id="outline-text-headline-43" class="outline-text-4">
+<div id="outline-text-headline-42" class="outline-text-4">
 <p>Install nvm</p>
 <div class="src src-sh">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh <span class="p">|</span> bash</code></pre></td></tr></table></div>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh <span class="p">|</span> bash</code></pre></td></tr></table></div>
 </div>
 </div>
 </div>
@@ -1277,12 +1202,12 @@ Add to .zshrc</p>
 <div class="src src-sh">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh"><span class="nb">export</span> <span class="nv">NVM_DIR</span><span class="o">=</span><span class="s2">&#34;</span><span class="nv">$HOME</span><span class="s2">/.nvm&#34;</span>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="nb">export</span> <span class="nv">NVM_DIR</span><span class="o">=</span><span class="s2">&#34;</span><span class="nv">$HOME</span><span class="s2">/.nvm&#34;</span>
 <span class="o">[</span> -s <span class="s2">&#34;</span><span class="nv">$NVM_DIR</span><span class="s2">/nvm.sh&#34;</span> <span class="o">]</span> <span class="o">&amp;&amp;</span> <span class="se">\.</span> <span class="s2">&#34;</span><span class="nv">$NVM_DIR</span><span class="s2">/nvm.sh&#34;</span>  <span class="c1"># This loads nvm</span>
 <span class="o">[</span> -s <span class="s2">&#34;</span><span class="nv">$NVM_DIR</span><span class="s2">/bash_completion&#34;</span> <span class="o">]</span> <span class="o">&amp;&amp;</span> <span class="se">\.</span> <span class="s2">&#34;</span><span class="nv">$NVM_DIR</span><span class="s2">/bash_completion&#34;</span>  <span class="c1"># This loads nvm bash_completion</span></code></pre></td></tr></table></div>
 </div>
@@ -1291,13 +1216,13 @@ Add to .zshrc</p>
 <div class="src src-sh">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">nvm install --lts
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">nvm install --lts
 nvm use --lts
 npm i -g javascript-typescript-langserver
 .emacs.d/bin/doom sync</code></pre></td></tr></table></div>
@@ -1308,15 +1233,15 @@ npm i -g javascript-typescript-langserver
 </div>
 </div>
 </div>
-<div id="outline-container-headline-44" class="outline-3">
-<h3 id="headline-44">
+<div id="outline-container-headline-43" class="outline-3">
+<h3 id="headline-43">
 Optional: Setup Rust Development Environment
 </h3>
-<div id="outline-text-headline-44" class="outline-text-3">
+<div id="outline-text-headline-43" class="outline-text-3">
 <div class="src src-sh">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -1324,7 +1249,7 @@ Optional: Setup Rust Development Environment
 </span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">curl --proto <span class="s1">&#39;=https&#39;</span> --tlsv1.2 -sSf https://sh.rustup.rs <span class="p">|</span> sh
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">curl --proto <span class="s1">&#39;=https&#39;</span> --tlsv1.2 -sSf https://sh.rustup.rs <span class="p">|</span> sh
 rustup component add rust-src
 sudo curl -L https://github.com/rust-analyzer/rust-analyzer/releases/latest/download/rust-analyzer-linux -o /usr/bin/rust-analyzer
 sudo chmod +x /usr/bin/rust-analyzer
@@ -1335,24 +1260,43 @@ rustup component add clippy-preview</code></pre></td></tr></table></div>
 </div>
 </div>
 </div>
-<div id="outline-container-headline-45" class="outline-3">
-<h3 id="headline-45">
+<div id="outline-container-headline-44" class="outline-3">
+<h3 id="headline-44">
 Optional: Install other useful packages
 </h3>
-<div id="outline-text-headline-45" class="outline-text-3">
-<div id="outline-container-headline-46" class="outline-4">
-<h4 id="headline-46">
+<div id="outline-text-headline-44" class="outline-text-3">
+<div id="outline-container-headline-45" class="outline-4">
+<h4 id="headline-45">
 apt
 </h4>
-<div id="outline-text-headline-46" class="outline-text-4">
+<div id="outline-text-headline-45" class="outline-text-4">
 <p>With <code>apt</code></p>
 <div class="src src-sh">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">sudo apt install calibre sqlite3 pandoc</code></pre></td></tr></table></div>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">sudo apt install calibre sqlite3 pandoc</code></pre></td></tr></table></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-46" class="outline-4">
+<h4 id="headline-46">
+pdf-tools
+</h4>
+<div id="outline-text-headline-46" class="outline-text-4">
+<div class="src src-sh">
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">sudo apt install libpng-dev zlib1g-dev libpoppler-glib-dev libpoppler-private-dev
+M-x pdf-tools-install</code></pre></td></tr></table></div>
 </div>
 </div>
 </div>
@@ -1360,32 +1304,13 @@ apt
 </div>
 <div id="outline-container-headline-47" class="outline-4">
 <h4 id="headline-47">
-pdf-tools
+rga
 </h4>
 <div id="outline-text-headline-47" class="outline-text-4">
 <div class="src src-sh">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">sudo apt install libpng-dev zlib1g-dev libpoppler-glib-dev libpoppler-private-dev
-M-x pdf-tools-install</code></pre></td></tr></table></div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="outline-container-headline-48" class="outline-4">
-<h4 id="headline-48">
-rga
-</h4>
-<div id="outline-text-headline-48" class="outline-text-4">
-<div class="src src-sh">
-<div class="highlight"><div class="chroma">
-<div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -1393,7 +1318,7 @@ rga
 </span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">sudo apt install build-essential pandoc poppler-utils ffmpeg
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">sudo apt install build-essential pandoc poppler-utils ffmpeg
 wget https://github.com/phiresky/ripgrep-all/releases/download/v0.9.6/ripgrep_all-v0.9.6-x86_64-unknown-linux-musl.tar.gz
 tar -zxvf ripgrep_all-v0.9.6-x86_64-unknown-linux-musl.tar.gz
 <span class="nb">cd</span> ripgrep_all-v0.9.6-x86_64-unknown-linux-musl
@@ -1404,20 +1329,20 @@ sudo cp rga-preproc /usr/bin</code></pre></td></tr></table></div>
 </div>
 </div>
 </div>
-<div id="outline-container-headline-49" class="outline-4">
-<h4 id="headline-49">
+<div id="outline-container-headline-48" class="outline-4">
+<h4 id="headline-48">
 Rime
 </h4>
-<div id="outline-text-headline-49" class="outline-text-4">
-<div id="outline-container-headline-50" class="outline-5">
-<h5 id="headline-50">
+<div id="outline-text-headline-48" class="outline-text-4">
+<div id="outline-container-headline-49" class="outline-5">
+<h5 id="headline-49">
 Install and setup Rime
 </h5>
-<div id="outline-text-headline-50" class="outline-text-5">
+<div id="outline-text-headline-49" class="outline-text-5">
 <div class="src src-sh">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1429,7 +1354,7 @@ Install and setup Rime
 </span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">sudo apt install git build-essential cmake libboost-all-dev libgoogle-glog-dev libleveldb-dev libmarisa-dev libopencc-dev libyaml-cpp-dev libgtest-dev
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">sudo apt install git build-essential cmake libboost-all-dev libgoogle-glog-dev libleveldb-dev libmarisa-dev libopencc-dev libyaml-cpp-dev libgtest-dev
 <span class="nb">cd</span> /usr/src/gtest
 sudo cmake CMakeLists.txt
 sudo make
@@ -1449,28 +1374,28 @@ In Emacs</p>
 <div class="src src-sh">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">M-x rime-compile-module</code></pre></td></tr></table></div>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">M-x rime-compile-module</code></pre></td></tr></table></div>
 </div>
 </div>
 </div>
 </div>
 </div>
-<div id="outline-container-headline-51" class="outline-5">
-<h5 id="headline-51">
+<div id="outline-container-headline-50" class="outline-5">
+<h5 id="headline-50">
 plum
 </h5>
-<div id="outline-text-headline-51" class="outline-text-5">
+<div id="outline-text-headline-50" class="outline-text-5">
 <div class="src src-sh">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">curl -fsSL https://git.io/rime-install <span class="p">|</span> bash
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">curl -fsSL https://git.io/rime-install <span class="p">|</span> bash
 <span class="c1"># rime_dir=&#34;$HOME/.rime&#34; bash rime-install</span></code></pre></td></tr></table></div>
 </div>
 </div>
@@ -1479,32 +1404,32 @@ plum
 </div>
 </div>
 </div>
+<div id="outline-container-headline-51" class="outline-4">
+<h4 id="headline-51">
+sdcv
+</h4>
+<div id="outline-text-headline-51" class="outline-text-4">
+<div class="src src-sh">
+<div class="highlight"><div class="chroma">
+<div class="table-container"><table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">sudo apt install stardict sdcv</code></pre></td></tr></table></div>
+</div>
+</div>
+</div>
+</div>
+</div>
 <div id="outline-container-headline-52" class="outline-4">
 <h4 id="headline-52">
-sdcv
+telega
 </h4>
 <div id="outline-text-headline-52" class="outline-text-4">
 <div class="src src-sh">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">sudo apt install stardict sdcv</code></pre></td></tr></table></div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="outline-container-headline-53" class="outline-4">
-<h4 id="headline-53">
-telega
-</h4>
-<div id="outline-text-headline-53" class="outline-text-4">
-<div class="src src-sh">
-<div class="highlight"><div class="chroma">
-<div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -1515,7 +1440,7 @@ telega
 </span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">sudo apt install gperf
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">sudo apt install gperf
 git clone https://github.com/tdlib/td.git
 <span class="nb">cd</span> td
 mkdir build <span class="o">&amp;&amp;</span> <span class="nb">cd</span> build <span class="o">&amp;&amp;</span> cmake ../
@@ -1531,15 +1456,15 @@ make <span class="o">&amp;&amp;</span> make install</code></pre></td></tr></tabl
 </div>
 </div>
 </div>
-<div id="outline-container-headline-54" class="outline-3">
-<h3 id="headline-54">
+<div id="outline-container-headline-53" class="outline-3">
+<h3 id="headline-53">
 An .zshrc example
 </h3>
-<div id="outline-text-headline-54" class="outline-text-3">
+<div id="outline-text-headline-53" class="outline-text-3">
 <div class="src src-sh">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">  1
+<pre tabindex="0" class="chroma"><code><span class="lnt">  1
 </span><span class="lnt">  2
 </span><span class="lnt">  3
 </span><span class="lnt">  4
@@ -1668,7 +1593,7 @@ An .zshrc example
 </span><span class="lnt">127
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh"><span class="c1"># If you come from bash you might have to change your $PATH.</span>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="c1"># If you come from bash you might have to change your $PATH.</span>
 <span class="c1"># export PATH=$HOME/bin:/usr/local/bin:$PATH</span>
 
 <span class="c1"># Path to your oh-my-zsh installation.</span>
@@ -1763,7 +1688,7 @@ An .zshrc example
 <span class="c1"># plugins, and themes. Aliases can be placed here, though oh-my-zsh</span>
 <span class="c1"># users are encouraged to define aliases within the ZSH_CUSTOM folder.</span>
 <span class="c1"># For a full list of active aliases, run `alias`.</span>
-#
+<span class="c1">#</span>
 <span class="c1"># Example aliases</span>
 <span class="c1"># alias zshconfig=&#34;mate ~/.zshrc&#34;</span>
 <span class="c1"># alias ohmyzsh=&#34;mate ~/.oh-my-zsh&#34;</span>
@@ -1800,19 +1725,19 @@ fix_wsl2_interop<span class="o">()</span> <span class="o">{</span>
 </div>
 </div>
 </div>
-<div id="outline-container-headline-55" class="outline-3">
-<h3 id="headline-55">
+<div id="outline-container-headline-54" class="outline-3">
+<h3 id="headline-54">
 Export WSL (Backup WSL)
 </h3>
-<div id="outline-text-headline-55" class="outline-text-3">
+<div id="outline-text-headline-54" class="outline-text-3">
 <p>wsl ships with a –export option for users to do export the WSL distro to a tar file which can be imported to other machines:</p>
 <div class="src src-sh">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">wsl --export Ubuntu-18.04 Ubuntu-18.04_20200905</code></pre></td></tr></table></div>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">wsl --export Ubuntu-18.04 Ubuntu-18.04_20200905</code></pre></td></tr></table></div>
 </div>
 </div>
 </div>
@@ -1820,21 +1745,21 @@ Export WSL (Backup WSL)
 </div>
 </div>
 </div>
-<div id="outline-container-headline-56" class="outline-2">
-<h2 id="headline-56">
+<div id="outline-container-headline-55" class="outline-2">
+<h2 id="headline-55">
 An Emacs Shortcut
 </h2>
-<div id="outline-text-headline-56" class="outline-text-2">
+<div id="outline-text-headline-55" class="outline-text-2">
 <p>Create two file in desktop: <code>Emacs.sh</code> and <code>Emacs.bat</code></p>
-<div id="outline-container-headline-57" class="outline-3">
-<h3 id="headline-57">
+<div id="outline-container-headline-56" class="outline-3">
+<h3 id="headline-56">
 Emacs.sh
 </h3>
-<div id="outline-text-headline-57" class="outline-text-3">
+<div id="outline-text-headline-56" class="outline-text-3">
 <div class="src src-sh">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1853,7 +1778,7 @@ Emacs.sh
 </span><span class="lnt">17
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh"><span class="nb">cd</span> ~
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="nb">cd</span> ~
 <span class="nb">export</span> <span class="nv">DISPLAY</span><span class="o">=</span><span class="k">$(</span>ip route <span class="p">|</span> awk <span class="s1">&#39;{print $3; exit}&#39;</span><span class="k">)</span>:0
 <span class="nb">export</span> <span class="nv">LIBGL_ALWAYS_INDIRECT</span><span class="o">=</span><span class="m">1</span>
 
@@ -1875,53 +1800,53 @@ emacs</code></pre></td></tr></table></div>
 </div>
 </div>
 </div>
-<div id="outline-container-headline-58" class="outline-3">
-<h3 id="headline-58">
+<div id="outline-container-headline-57" class="outline-3">
+<h3 id="headline-57">
 Emacs.bat
 </h3>
-<div id="outline-text-headline-58" class="outline-text-3">
+<div id="outline-text-headline-57" class="outline-text-3">
 <div class="src src-sh">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">@echo off
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">@echo off
 wsl ./emacs.sh</code></pre></td></tr></table></div>
 </div>
 </div>
 </div>
 </div>
 </div>
-<div id="outline-container-headline-59" class="outline-3">
-<h3 id="headline-59">
+<div id="outline-container-headline-58" class="outline-3">
+<h3 id="headline-58">
 Double click <code>Emacs.bat</code> to launch Emacs.
 </h3>
 </div>
 </div>
 </div>
-<div id="outline-container-headline-60" class="outline-2">
-<h2 id="headline-60">
+<div id="outline-container-headline-59" class="outline-2">
+<h2 id="headline-59">
 Some Emacs hacking ideas
 </h2>
-<div id="outline-text-headline-60" class="outline-text-2">
+<div id="outline-text-headline-59" class="outline-text-2">
 <p>It is very easy to use Emacs to interactive with Windows&#39;s programs, such as browsing the URL with Chrome, open the PDF file with Acrobat Reader DC, open the current file with default program, launch <code>explorer.exe</code>, etc. Here are some ideas:</p>
-<div id="outline-container-headline-61" class="outline-3">
-<h3 id="headline-61">
+<div id="outline-container-headline-60" class="outline-3">
+<h3 id="headline-60">
 Browser URL with default browser
 </h3>
-<div id="outline-text-headline-61" class="outline-text-3">
+<div id="outline-text-headline-60" class="outline-text-3">
 <div class="src src-emacs-lisp">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">(</span><span class="nb">defun</span> <span class="nv">wsl-browse-url-xdg-open</span> <span class="p">(</span><span class="nv">url</span> <span class="kp">&amp;optional</span> <span class="nv">ignored</span><span class="p">)</span>
+<pre tabindex="0" class="chroma"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="p">(</span><span class="nb">defun</span> <span class="nv">wsl-browse-url-xdg-open</span> <span class="p">(</span><span class="nv">url</span> <span class="kp">&amp;optional</span> <span class="nv">ignored</span><span class="p">)</span>
   <span class="p">(</span><span class="nb">interactive</span> <span class="p">(</span><span class="nv">browse-url-interactive-arg</span> <span class="s">&#34;URL: &#34;</span><span class="p">))</span>
   <span class="p">(</span><span class="nv">shell-command-to-string</span> <span class="p">(</span><span class="nf">concat</span> <span class="s">&#34;explorer.exe &#34;</span> <span class="nv">url</span><span class="p">)))</span>
 <span class="p">(</span><span class="nv">advice-add</span> <span class="nf">#&#39;</span><span class="nv">browse-url-xdg-open</span> <span class="nb">:override</span> <span class="nf">#&#39;</span><span class="nv">wsl-browse-url-xdg-open</span><span class="p">)</span></code></pre></td></tr></table></div>
@@ -1930,15 +1855,15 @@ Browser URL with default browser
 </div>
 </div>
 </div>
-<div id="outline-container-headline-62" class="outline-3">
-<h3 id="headline-62">
+<div id="outline-container-headline-61" class="outline-3">
+<h3 id="headline-61">
 If you a <a href="https://github.com/chenyanming/calibredb.el" target="_blank" rel="noopener">calibredb</a> user, you can add the following advice to open the PDF/EPUB with windows default programs
 </h3>
-<div id="outline-text-headline-62" class="outline-text-3">
+<div id="outline-text-headline-61" class="outline-text-3">
 <div class="src src-emacs-lisp">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -1946,7 +1871,7 @@ If you a <a href="https://github.com/chenyanming/calibredb.el" target="_blank" r
 </span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="c1">;; calibredb</span>
+<pre tabindex="0" class="chroma"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="c1">;; calibredb</span>
 <span class="p">(</span><span class="nb">defun</span> <span class="nv">wslcalibredb-open-with-default-tool</span> <span class="p">(</span><span class="nv">filepath</span><span class="p">)</span>
   <span class="p">(</span><span class="nv">shell-command-to-string</span>
    <span class="p">(</span><span class="nf">concat</span> <span class="s">&#34;cd &#34;</span> <span class="p">(</span><span class="nv">shell-quote-argument</span> <span class="p">(</span><span class="nf">file-name-directory</span> <span class="p">(</span><span class="nf">expand-file-name</span> <span class="nv">filepath</span><span class="p">)))</span> <span class="s">&#34; &amp;&amp; &#34;</span>
@@ -1957,15 +1882,15 @@ If you a <a href="https://github.com/chenyanming/calibredb.el" target="_blank" r
 </div>
 </div>
 </div>
-<div id="outline-container-headline-63" class="outline-3">
-<h3 id="headline-63">
+<div id="outline-container-headline-62" class="outline-3">
+<h3 id="headline-62">
 Open the file with windows default programs or reveal it in explorer
 </h3>
-<div id="outline-text-headline-63" class="outline-text-3">
+<div id="outline-text-headline-62" class="outline-text-3">
 <div class="src src-emacs-lisp">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1989,7 +1914,7 @@ Open the file with windows default programs or reveal it in explorer
 </span><span class="lnt">22
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="c1">;;;###autoload</span>
+<pre tabindex="0" class="chroma"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span class="c1">;;;###autoload</span>
 
 <span class="p">(</span><span class="nb">defmacro</span> <span class="nv">wsl--open-with</span> <span class="p">(</span><span class="nv">id</span> <span class="kp">&amp;optional</span> <span class="nv">app</span> <span class="nv">dir</span><span class="p">)</span>
   <span class="o">`</span><span class="p">(</span><span class="nb">defun</span> <span class="o">,</span><span class="p">(</span><span class="nf">intern</span> <span class="p">(</span><span class="nf">format</span> <span class="s">&#34;wsl/%s&#34;</span> <span class="nv">id</span><span class="p">))</span> <span class="p">()</span>
@@ -2017,11 +1942,11 @@ Open the file with windows default programs or reveal it in explorer
 <div class="src src-sh">
 <div class="highlight"><div class="chroma">
 <div class="table-container"><table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">M-x wsl/open-in-default-program
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">M-x wsl/open-in-default-program
 M-x wsl/reveal-in-explorer</code></pre></td></tr></table></div>
 </div>
 </div>
@@ -2030,70 +1955,38 @@ M-x wsl/reveal-in-explorer</code></pre></td></tr></table></div>
 </div>
 </div>
 </div>
-<div id="outline-container-headline-64" class="outline-2">
-<h2 id="headline-64">
+<div id="outline-container-headline-63" class="outline-2">
+<h2 id="headline-63">
 References
 </h2>
-<div id="outline-text-headline-64" class="outline-text-2">
+<div id="outline-text-headline-63" class="outline-text-2">
 <ul>
-<li>
-<p><a href="https://devblogs.microsoft.com/commandline/wsl-2-support-is-coming-to-windows-10-versions-1903-and-1909/" target="_blank" rel="noopener">WSL 2 Support is coming to Windows 10 Versions 1903 and 1909 | Windows Comman…</a></p>
-</li>
-<li>
-<p><a href="https://ubuntu.com/blog/ubuntu-on-wsl-2-is-generally-available" target="_blank" rel="noopener">Ubuntu on WSL 2 Is Generally Available | Ubuntu</a></p>
-</li>
-<li>
-<p><a href="https://github.com/microsoft/WSL/issues/5336" target="_blank" rel="noopener">https://github.com/microsoft/WSL/issues/5336</a></p>
-</li>
-<li>
-<p><a href="https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux</a></p>
-</li>
-<li>
-<p><a href="https://docs.microsoft.com/en-us/windows/wsl/wsl2-index" target="_blank" rel="noopener">https://docs.microsoft.com/en-us/windows/wsl/wsl2-index</a></p>
-</li>
-<li>
-<p><a href="https://docs.microsoft.com/en-us/windows/wsl/compare-versions" target="_blank" rel="noopener">https://docs.microsoft.com/en-us/windows/wsl/compare-versions</a></p>
-</li>
-<li>
-<p><a href="https://github.com/microsoft/terminal/issues/1379" target="_blank" rel="noopener">https://github.com/microsoft/terminal/issues/1379</a></p>
-</li>
-<li>
-<p><a href="https://github.com/microsoft/terminal" target="_blank" rel="noopener">https://github.com/microsoft/terminal</a></p>
-</li>
-<li>
-<p><a href="https://docs.microsoft.com/en-us/windows/terminal/customize-settings/profile-settings" target="_blank" rel="noopener">https://docs.microsoft.com/en-us/windows/terminal/customize-settings/profile-settings</a></p>
-</li>
-<li>
-<p><a href="https://stackoverflow.com/questions/61110603/how-to-set-up-working-x11-forwarding-on-wsl2" target="_blank" rel="noopener">https://stackoverflow.com/questions/61110603/how-to-set-up-working-x11-forwarding-on-wsl2</a></p>
-</li>
-<li>
-<p><a href="https://superuser.com/questions/1196399/how-do-i-set-the-size-of-the-x-mouse-pointer-in-the-windows-subsystem-for-linux" target="_blank" rel="noopener">https://superuser.com/questions/1196399/how-do-i-set-the-size-of-the-x-mouse-pointer-in-the-windows-subsystem-for-linux</a></p>
-</li>
-<li>
-<p><a href="https://github.com/hubisan/emacs-wsl" target="_blank" rel="noopener">https://github.com/hubisan/emacs-wsl</a></p>
-</li>
-<li>
-<p><a href="https://stackoverflow.com/questions/27022373/python3-importerror-no-module-named-ctypes-when-using-value-from-module-mul" target="_blank" rel="noopener">https://stackoverflow.com/questions/27022373/python3-importerror-no-module-named-ctypes-when-using-value-from-module-mul</a></p>
-</li>
-<li>
-<p><a href="https://docs.microsoft.com/en-us/windows/nodejs/setup-on-wsl2" target="_blank" rel="noopener">https://docs.microsoft.com/en-us/windows/nodejs/setup-on-wsl2</a></p>
-</li>
-<li>
-<p><a href="https://github.com/microsoft/WSL/issues/5065" target="_blank" rel="noopener">https://github.com/microsoft/WSL/issues/5065</a></p>
-</li>
-<li>
-<p><a href="https://docs.microsoft.com/en-us/windows/wsl/interop" target="_blank" rel="noopener">https://docs.microsoft.com/en-us/windows/wsl/interop</a></p>
-</li>
+<li><a href="https://devblogs.microsoft.com/commandline/wsl-2-support-is-coming-to-windows-10-versions-1903-and-1909/" target="_blank" rel="noopener">WSL 2 Support is coming to Windows 10 Versions 1903 and 1909 | Windows Comman…</a></li>
+<li><a href="https://ubuntu.com/blog/ubuntu-on-wsl-2-is-generally-available" target="_blank" rel="noopener">Ubuntu on WSL 2 Is Generally Available | Ubuntu</a></li>
+<li><a href="https://github.com/microsoft/WSL/issues/5336" target="_blank" rel="noopener">https://github.com/microsoft/WSL/issues/5336</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux</a></li>
+<li><a href="https://docs.microsoft.com/en-us/windows/wsl/wsl2-index" target="_blank" rel="noopener">https://docs.microsoft.com/en-us/windows/wsl/wsl2-index</a></li>
+<li><a href="https://docs.microsoft.com/en-us/windows/wsl/compare-versions" target="_blank" rel="noopener">https://docs.microsoft.com/en-us/windows/wsl/compare-versions</a></li>
+<li><a href="https://github.com/microsoft/terminal/issues/1379" target="_blank" rel="noopener">https://github.com/microsoft/terminal/issues/1379</a></li>
+<li><a href="https://github.com/microsoft/terminal" target="_blank" rel="noopener">https://github.com/microsoft/terminal</a></li>
+<li><a href="https://docs.microsoft.com/en-us/windows/terminal/customize-settings/profile-settings" target="_blank" rel="noopener">https://docs.microsoft.com/en-us/windows/terminal/customize-settings/profile-settings</a></li>
+<li><a href="https://stackoverflow.com/questions/61110603/how-to-set-up-working-x11-forwarding-on-wsl2" target="_blank" rel="noopener">https://stackoverflow.com/questions/61110603/how-to-set-up-working-x11-forwarding-on-wsl2</a></li>
+<li><a href="https://superuser.com/questions/1196399/how-do-i-set-the-size-of-the-x-mouse-pointer-in-the-windows-subsystem-for-linux" target="_blank" rel="noopener">https://superuser.com/questions/1196399/how-do-i-set-the-size-of-the-x-mouse-pointer-in-the-windows-subsystem-for-linux</a></li>
+<li><a href="https://github.com/hubisan/emacs-wsl" target="_blank" rel="noopener">https://github.com/hubisan/emacs-wsl</a></li>
+<li><a href="https://stackoverflow.com/questions/27022373/python3-importerror-no-module-named-ctypes-when-using-value-from-module-mul" target="_blank" rel="noopener">https://stackoverflow.com/questions/27022373/python3-importerror-no-module-named-ctypes-when-using-value-from-module-mul</a></li>
+<li><a href="https://docs.microsoft.com/en-us/windows/nodejs/setup-on-wsl2" target="_blank" rel="noopener">https://docs.microsoft.com/en-us/windows/nodejs/setup-on-wsl2</a></li>
+<li><a href="https://github.com/microsoft/WSL/issues/5065" target="_blank" rel="noopener">https://github.com/microsoft/WSL/issues/5065</a></li>
+<li><a href="https://docs.microsoft.com/en-us/windows/wsl/interop" target="_blank" rel="noopener">https://docs.microsoft.com/en-us/windows/wsl/interop</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-headline-65" class="outline-2">
-<h2 id="headline-65">
+<div id="outline-container-headline-64" class="outline-2">
+<h2 id="headline-64">
 Footnotes
 </h2>
 </div>
-<div id="outline-container-headline-66" class="outline-2">
-<h2 id="headline-66">
+<div id="outline-container-headline-65" class="outline-2">
+<h2 id="headline-65">
 COMMENT Local Variables&#xa0;&#xa0;&#xa0;<span class="tags"><span>ARCHIVE</span></span>
 </h2>
 </div>
@@ -2109,9 +2002,9 @@ COMMENT Local Variables&#xa0;&#xa0;&#xa0;<span class="tags"><span>ARCHIVE</span>
 
         
     <div class="updated-badge-container">
-        <span title="Updated @ 2021-02-16 10:47:03 HKT" style="cursor:help">
+        <span title="Updated @ 2020-10-18 12:59:54 JST" style="cursor:help">
 
-<svg xmlns="http://www.w3.org/2000/svg" width="130" height="20" class="updated-badge"><linearGradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="a"><rect width="130" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#a)"><path class="updated-badge-left" d="M0 0h55v20H0z"/><path class="updated-badge-right" d="M55 0h75v20H55z"/><path fill="url(#b)" d="M0 0h130v20H0z"/></g><g fill="#fff" text-anchor="middle" font-size="110"><text x="285" y="150" fill="#010101" fill-opacity=".3" textLength="450" transform="scale(.1)">updated</text><text x="285" y="140" textLength="450" transform="scale(.1)">updated</text><text x="915" y="150" fill="#010101" fill-opacity=".3" textLength="650" transform="scale(.1)">2021-02-16</text><text x="915" y="140" textLength="650" transform="scale(.1)">2021-02-16</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="130" height="20" class="updated-badge"><linearGradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="a"><rect width="130" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#a)"><path class="updated-badge-left" d="M0 0h55v20H0z"/><path class="updated-badge-right" d="M55 0h75v20H55z"/><path fill="url(#b)" d="M0 0h130v20H0z"/></g><g fill="#fff" text-anchor="middle" font-size="110"><text x="285" y="150" fill="#010101" fill-opacity=".3" textLength="450" transform="scale(.1)">updated</text><text x="285" y="140" textLength="450" transform="scale(.1)">updated</text><text x="915" y="150" fill="#010101" fill-opacity=".3" textLength="650" transform="scale(.1)">2020-10-18</text><text x="915" y="140" textLength="650" transform="scale(.1)">2020-10-18</text></g></svg>
         </span></div>
 
 
@@ -2128,56 +2021,56 @@ COMMENT Local Variables&#xa0;&#xa0;&#xa0;<span class="tags"><span>ARCHIVE</span>
             
                 <div class="share-item twitter">
                     
-                    <a href="https://twitter.com/share?url=https://hkvim.com/windows-setup/windows-setup/&amp;text=The%20ultimate%20Emacs%20hacking%20tutorial%20in%20Windows%2010%20WSL%202&amp;hashtags=&amp;via=%25!s%28%3cnil%3e%29" title="Share on Twitter" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon twitter-icon"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg></a>
+                    <a href="https://twitter.com/share?url=https://elecming.com/windows-setup/windows-setup/&amp;text=The%20ultimate%20Emacs%20hacking%20tutorial%20in%20Windows%2010%20WSL%202&amp;hashtags=&amp;via=%25!s%28%3cnil%3e%29" title="Share on Twitter" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon twitter-icon"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg></a>
                 </div>
             
 
             
                 <div class="share-item facebook">
                     
-                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://hkvim.com/windows-setup/windows-setup/&amp;hashtag=%23" title="Share on Facebook" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon facebook-icon"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg></a>
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://elecming.com/windows-setup/windows-setup/&amp;hashtag=%23" title="Share on Facebook" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon facebook-icon"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg></a>
                 </div>
             
 
             
                 <div class="share-item linkedin">
                     
-                    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://hkvim.com/windows-setup/windows-setup/&amp;title=The%20ultimate%20Emacs%20hacking%20tutorial%20in%20Windows%2010%20WSL%202&amp;summary=Do%20you%20think%20Emacs%27s%20performance%20in%20windows%20is%20bad?%20Do%20you%20really%20want%20to%20use%20a%20native%20Speed%20Emacs%20in%20Windows?%20Do%20you%20hate%20the%20unnatural%20path%20transition%20between%20windows%20convention%20and%20Linux%20convention?%20Do%20you%20feel%20frustrated%20when%20you%20try%20to%20install%20and%20configure%20Emacs%20in%20WSL?%20Do%20you%20just%20want%20to%20taste%20the%20power%20of%20Emacs%20running%20in%20WSL%202?%0a%20This%20tutorial%20may%20help%20you%20:%29%0aWhat%20is%20WSL?%20%20Earlier%20on%20August%202,%202016,%20Microsoft%20released%20Windows%20Subsystem%20for%20Linux%20%28WSL%29,%20enabling%20the%20native%20way%20to%20run%20Linux%20Tools%20in%20Windows%2010%20and%20Windows%20Server%202019.%0a%20In%20May%202019,%20WSL%202%20was%20introduced,%20by%20importing%20the%20Real%20Linux%20Kernel%20through%20Hyper-V%20features%20%28in%20a%20Virtual%20Machine%20Environment%29,%20providing%20the%20users%20with%20the%20full%20&amp;%20immerse%20way%20to%20work%20with%20Linux%20under%20windows,%20with%2020%20times%20the%20read/write%20performances%20of%20WSL%201.%0a%20For%20Windows%20Emacs%20Users,%20here%20are%20some%20advantages/disadvantages%20for%20you%20to%20consider%20before%20switching%20the%20WSL%202:&amp;source=Damon%20Chan%27s%20Blog" title="Share on LinkedIn" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon linkedin-icon"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a>
+                    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://elecming.com/windows-setup/windows-setup/&amp;title=The%20ultimate%20Emacs%20hacking%20tutorial%20in%20Windows%2010%20WSL%202&amp;summary=Do%20you%20think%20Emacs%27s%20performance%20in%20windows%20is%20bad?%20Do%20you%20really%20want%20to%20use%20a%20native%20Speed%20Emacs%20in%20Windows?%20Do%20you%20hate%20the%20unnatural%20path%20transition%20between%20windows%20convention%20and%20Linux%20convention?%20Do%20you%20feel%20frustrated%20when%20you%20try%20to%20install%20and%20configure%20Emacs%20in%20WSL?%20Do%20you%20just%20want%20to%20taste%20the%20power%20of%20Emacs%20running%20in%20WSL%202?%0a%20This%20tutorial%20may%20help%20you%20:%29%0aWhat%20is%20WSL?%20%20Earlier%20on%20August%202,%202016,%20Microsoft%20released%20Windows%20Subsystem%20for%20Linux%20%28WSL%29,%20enabling%20the%20native%20way%20to%20run%20Linux%20Tools%20in%20Windows%2010%20and%20Windows%20Server%202019.%0a%20In%20May%202019,%20WSL%202%20was%20introduced,%20by%20importing%20the%20Real%20Linux%20Kernel%20through%20Hyper-V%20features%20%28in%20a%20Virtual%20Machine%20Environment%29,%20providing%20the%20users%20with%20the%20full%20&amp;%20immerse%20way%20to%20work%20with%20Linux%20under%20windows,%20with%2020%20times%20the%20read/write%20performances%20of%20WSL%201.%0a%20For%20Windows%20Emacs%20Users,%20here%20are%20some%20advantages/disadvantages%20for%20you%20to%20consider%20before%20switching%20the%20WSL%202:&amp;source=Damon%20Chan%27s%20Blog" title="Share on LinkedIn" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon linkedin-icon"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a>
                 </div>
             
 
             
                 <div class="share-item telegram">
                     
-                    <a href="https://t.me/share/url?url=https://hkvim.com/windows-setup/windows-setup/&amp;text=The%20ultimate%20Emacs%20hacking%20tutorial%20in%20Windows%2010%20WSL%202" title="Share on Telegram" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="icon telegram-icon"><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z"/></svg></a>
+                    <a href="https://t.me/share/url?url=https://elecming.com/windows-setup/windows-setup/&amp;text=The%20ultimate%20Emacs%20hacking%20tutorial%20in%20Windows%2010%20WSL%202" title="Share on Telegram" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="icon telegram-icon"><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z"/></svg></a>
                 </div>
             
 
             
                 <div class="share-item weibo">
                     
-                    <a href="https://service.weibo.com/share/share.php?&amp;url=https://hkvim.com/windows-setup/windows-setup/&amp;title=The%20ultimate%20Emacs%20hacking%20tutorial%20in%20Windows%2010%20WSL%202&amp;pic=https://hkvim.com/icons/apple-touch-icon.png&amp;searchPic=false" title="Share on Weibo" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon weibo-icon"><path d="M407 177.6c7.6-24-13.4-46.8-37.4-41.7-22 4.8-28.8-28.1-7.1-32.8 50.1-10.9 92.3 37.1 76.5 84.8-6.8 21.2-38.8 10.8-32-10.3zM214.8 446.7C108.5 446.7 0 395.3 0 310.4c0-44.3 28-95.4 76.3-143.7C176 67 279.5 65.8 249.9 161c-4 13.1 12.3 5.7 12.3 6 79.5-33.6 140.5-16.8 114 51.4-3.7 9.4 1.1 10.9 8.3 13.1 135.7 42.3 34.8 215.2-169.7 215.2zm143.7-146.3c-5.4-55.7-78.5-94-163.4-85.7-84.8 8.6-148.8 60.3-143.4 116s78.5 94 163.4 85.7c84.8-8.6 148.8-60.3 143.4-116zM347.9 35.1c-25.9 5.6-16.8 43.7 8.3 38.3 72.3-15.2 134.8 52.8 111.7 124-7.4 24.2 29.1 37 37.4 12 31.9-99.8-55.1-195.9-157.4-174.3zm-78.5 311c-17.1 38.8-66.8 60-109.1 46.3-40.8-13.1-58-53.4-40.3-89.7 17.7-35.4 63.1-55.4 103.4-45.1 42 10.8 63.1 50.2 46 88.5zm-86.3-30c-12.9-5.4-30 .3-38 12.9-8.3 12.9-4.3 28 8.6 34 13.1 6 30.8.3 39.1-12.9 8-13.1 3.7-28.3-9.7-34zm32.6-13.4c-5.1-1.7-11.4.6-14.3 5.4-2.9 5.1-1.4 10.6 3.7 12.9 5.1 2 11.7-.3 14.6-5.4 2.8-5.2 1.1-10.9-4-12.9z"/></svg></a>
+                    <a href="https://service.weibo.com/share/share.php?&amp;url=https://elecming.com/windows-setup/windows-setup/&amp;title=The%20ultimate%20Emacs%20hacking%20tutorial%20in%20Windows%2010%20WSL%202&amp;pic=https://elecming.com/icons/apple-touch-icon.png&amp;searchPic=false" title="Share on Weibo" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon weibo-icon"><path d="M407 177.6c7.6-24-13.4-46.8-37.4-41.7-22 4.8-28.8-28.1-7.1-32.8 50.1-10.9 92.3 37.1 76.5 84.8-6.8 21.2-38.8 10.8-32-10.3zM214.8 446.7C108.5 446.7 0 395.3 0 310.4c0-44.3 28-95.4 76.3-143.7C176 67 279.5 65.8 249.9 161c-4 13.1 12.3 5.7 12.3 6 79.5-33.6 140.5-16.8 114 51.4-3.7 9.4 1.1 10.9 8.3 13.1 135.7 42.3 34.8 215.2-169.7 215.2zm143.7-146.3c-5.4-55.7-78.5-94-163.4-85.7-84.8 8.6-148.8 60.3-143.4 116s78.5 94 163.4 85.7c84.8-8.6 148.8-60.3 143.4-116zM347.9 35.1c-25.9 5.6-16.8 43.7 8.3 38.3 72.3-15.2 134.8 52.8 111.7 124-7.4 24.2 29.1 37 37.4 12 31.9-99.8-55.1-195.9-157.4-174.3zm-78.5 311c-17.1 38.8-66.8 60-109.1 46.3-40.8-13.1-58-53.4-40.3-89.7 17.7-35.4 63.1-55.4 103.4-45.1 42 10.8 63.1 50.2 46 88.5zm-86.3-30c-12.9-5.4-30 .3-38 12.9-8.3 12.9-4.3 28 8.6 34 13.1 6 30.8.3 39.1-12.9 8-13.1 3.7-28.3-9.7-34zm32.6-13.4c-5.1-1.7-11.4.6-14.3 5.4-2.9 5.1-1.4 10.6 3.7 12.9 5.1 2 11.7-.3 14.6-5.4 2.8-5.2 1.1-10.9-4-12.9z"/></svg></a>
                 </div>
             
 
             
                 <div class="share-item douban">
                     
-                    <a href="https://www.douban.com/share/service?href=https://hkvim.com/windows-setup/windows-setup/&amp;name=The%20ultimate%20Emacs%20hacking%20tutorial%20in%20Windows%2010%20WSL%202&amp;text=Do%20you%20think%20Emacs%27s%20performance%20in%20windows%20is%20bad?%20Do%20you%20really%20want%20to%20use%20a%20native%20Speed%20Emacs%20in%20Windows?%20Do%20you%20hate%20the%20unnatural%20path%20transition%20between%20windows%20convention%20and%20Linux%20convention?%20Do%20you%20feel%20frustrated%20when%20you%20try%20to%20install%20and%20configure%20Emacs%20in%20WSL?%20Do%20you%20just%20want%20to%20taste%20the%20power%20of%20Emacs%20running%20in%20WSL%202?%0a%20This%20tutorial%20may%20help%20you%20:%29%0aWhat%20is%20WSL?%20%20Earlier%20on%20August%202,%202016,%20Microsoft%20released%20Windows%20Subsystem%20for%20Linux%20%28WSL%29,%20enabling%20the%20native%20way%20to%20run%20Linux%20Tools%20in%20Windows%2010%20and%20Windows%20Server%202019.%0a%20In%20May%202019,%20WSL%202%20was%20introduced,%20by%20importing%20the%20Real%20Linux%20Kernel%20through%20Hyper-V%20features%20%28in%20a%20Virtual%20Machine%20Environment%29,%20providing%20the%20users%20with%20the%20full%20&amp;%20immerse%20way%20to%20work%20with%20Linux%20under%20windows,%20with%2020%20times%20the%20read/write%20performances%20of%20WSL%201.%0a%20For%20Windows%20Emacs%20Users,%20here%20are%20some%20advantages/disadvantages%20for%20you%20to%20consider%20before%20switching%20the%20WSL%202:" title="Share on Douban" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon douban-icon"><path d="M.643.92v2.412h22.714V.92H.643zm1.974 4.926v9.42h18.764v-9.42H2.617zm2.72 2.408H18.69v4.605H5.338V8.254zm1.657 7.412l-2.512.938c1.037 1.461 1.87 2.825 2.512 4.091H0v2.385h24v-2.385h-6.678c.818-1.176 1.589-2.543 2.303-4.091l-2.73-.938a29.952 29.952 0 01-2.479 5.03h-4.75c-.786-1.962-1.677-3.641-2.672-5.03Z"/></svg></a>
+                    <a href="https://www.douban.com/share/service?href=https://elecming.com/windows-setup/windows-setup/&amp;name=The%20ultimate%20Emacs%20hacking%20tutorial%20in%20Windows%2010%20WSL%202&amp;text=Do%20you%20think%20Emacs%27s%20performance%20in%20windows%20is%20bad?%20Do%20you%20really%20want%20to%20use%20a%20native%20Speed%20Emacs%20in%20Windows?%20Do%20you%20hate%20the%20unnatural%20path%20transition%20between%20windows%20convention%20and%20Linux%20convention?%20Do%20you%20feel%20frustrated%20when%20you%20try%20to%20install%20and%20configure%20Emacs%20in%20WSL?%20Do%20you%20just%20want%20to%20taste%20the%20power%20of%20Emacs%20running%20in%20WSL%202?%0a%20This%20tutorial%20may%20help%20you%20:%29%0aWhat%20is%20WSL?%20%20Earlier%20on%20August%202,%202016,%20Microsoft%20released%20Windows%20Subsystem%20for%20Linux%20%28WSL%29,%20enabling%20the%20native%20way%20to%20run%20Linux%20Tools%20in%20Windows%2010%20and%20Windows%20Server%202019.%0a%20In%20May%202019,%20WSL%202%20was%20introduced,%20by%20importing%20the%20Real%20Linux%20Kernel%20through%20Hyper-V%20features%20%28in%20a%20Virtual%20Machine%20Environment%29,%20providing%20the%20users%20with%20the%20full%20&amp;%20immerse%20way%20to%20work%20with%20Linux%20under%20windows,%20with%2020%20times%20the%20read/write%20performances%20of%20WSL%201.%0a%20For%20Windows%20Emacs%20Users,%20here%20are%20some%20advantages/disadvantages%20for%20you%20to%20consider%20before%20switching%20the%20WSL%202:" title="Share on Douban" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon douban-icon"><path d="M.643.92v2.412h22.714V.92H.643zm1.974 4.926v9.42h18.764v-9.42H2.617zm2.72 2.408H18.69v4.605H5.338V8.254zm1.657 7.412l-2.512.938c1.037 1.461 1.87 2.825 2.512 4.091H0v2.385h24v-2.385h-6.678c.818-1.176 1.589-2.543 2.303-4.091l-2.73-.938a29.952 29.952 0 01-2.479 5.03h-4.75c-.786-1.962-1.677-3.641-2.672-5.03Z"/></svg></a>
                 </div>
             
 
             
                 <div class="share-item qq">
                     
-                    <a href="https://connect.qq.com/widget/shareqq/index.html?url=https://hkvim.com/windows-setup/windows-setup/&amp;title=The%20ultimate%20Emacs%20hacking%20tutorial%20in%20Windows%2010%20WSL%202&amp;summary=Do%20you%20think%20Emacs%27s%20performance%20in%20windows%20is%20bad?%20Do%20you%20really%20want%20to%20use%20a%20native%20Speed%20Emacs%20in%20Windows?%20Do%20you%20hate%20the%20unnatural%20path%20transition%20between%20windows%20convention%20and%20Linux%20convention?%20Do%20you%20feel%20frustrated%20when%20you%20try%20to%20install%20and%20configure%20Emacs%20in%20WSL?%20Do%20you%20just%20want%20to%20taste%20the%20power%20of%20Emacs%20running%20in%20WSL%202?%0a%20This%20tutorial%20may%20help%20you%20:%29%0aWhat%20is%20WSL?%20%20Earlier%20on%20August%202,%202016,%20Microsoft%20released%20Windows%20Subsystem%20for%20Linux%20%28WSL%29,%20enabling%20the%20native%20way%20to%20run%20Linux%20Tools%20in%20Windows%2010%20and%20Windows%20Server%202019.%0a%20In%20May%202019,%20WSL%202%20was%20introduced,%20by%20importing%20the%20Real%20Linux%20Kernel%20through%20Hyper-V%20features%20%28in%20a%20Virtual%20Machine%20Environment%29,%20providing%20the%20users%20with%20the%20full%20&amp;%20immerse%20way%20to%20work%20with%20Linux%20under%20windows,%20with%2020%20times%20the%20read/write%20performances%20of%20WSL%201.%0a%20For%20Windows%20Emacs%20Users,%20here%20are%20some%20advantages/disadvantages%20for%20you%20to%20consider%20before%20switching%20the%20WSL%202:&amp;pics=https://hkvim.com/icons/apple-touch-icon.png&amp;site=Damon%20Chan%27s%20Blog" title="Share on QQ" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon qq-icon"><path d="M433.754 420.445c-11.526 1.393-44.86-52.741-44.86-52.741 0 31.345-16.136 72.247-51.051 101.786 16.842 5.192 54.843 19.167 45.803 34.421-7.316 12.343-125.51 7.881-159.632 4.037-34.122 3.844-152.316 8.306-159.632-4.037-9.045-15.25 28.918-29.214 45.783-34.415-34.92-29.539-51.059-70.445-51.059-101.792 0 0-33.334 54.134-44.859 52.741-5.37-.65-12.424-29.644 9.347-99.704 10.261-33.024 21.995-60.478 40.144-105.779C60.683 98.063 108.982.006 224 0c113.737.006 163.156 96.133 160.264 214.963 18.118 45.223 29.912 72.85 40.144 105.778 21.768 70.06 14.716 99.053 9.346 99.704z"/></svg></a>
+                    <a href="https://connect.qq.com/widget/shareqq/index.html?url=https://elecming.com/windows-setup/windows-setup/&amp;title=The%20ultimate%20Emacs%20hacking%20tutorial%20in%20Windows%2010%20WSL%202&amp;summary=Do%20you%20think%20Emacs%27s%20performance%20in%20windows%20is%20bad?%20Do%20you%20really%20want%20to%20use%20a%20native%20Speed%20Emacs%20in%20Windows?%20Do%20you%20hate%20the%20unnatural%20path%20transition%20between%20windows%20convention%20and%20Linux%20convention?%20Do%20you%20feel%20frustrated%20when%20you%20try%20to%20install%20and%20configure%20Emacs%20in%20WSL?%20Do%20you%20just%20want%20to%20taste%20the%20power%20of%20Emacs%20running%20in%20WSL%202?%0a%20This%20tutorial%20may%20help%20you%20:%29%0aWhat%20is%20WSL?%20%20Earlier%20on%20August%202,%202016,%20Microsoft%20released%20Windows%20Subsystem%20for%20Linux%20%28WSL%29,%20enabling%20the%20native%20way%20to%20run%20Linux%20Tools%20in%20Windows%2010%20and%20Windows%20Server%202019.%0a%20In%20May%202019,%20WSL%202%20was%20introduced,%20by%20importing%20the%20Real%20Linux%20Kernel%20through%20Hyper-V%20features%20%28in%20a%20Virtual%20Machine%20Environment%29,%20providing%20the%20users%20with%20the%20full%20&amp;%20immerse%20way%20to%20work%20with%20Linux%20under%20windows,%20with%2020%20times%20the%20read/write%20performances%20of%20WSL%201.%0a%20For%20Windows%20Emacs%20Users,%20here%20are%20some%20advantages/disadvantages%20for%20you%20to%20consider%20before%20switching%20the%20WSL%202:&amp;pics=https://elecming.com/icons/apple-touch-icon.png&amp;site=Damon%20Chan%27s%20Blog" title="Share on QQ" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon qq-icon"><path d="M433.754 420.445c-11.526 1.393-44.86-52.741-44.86-52.741 0 31.345-16.136 72.247-51.051 101.786 16.842 5.192 54.843 19.167 45.803 34.421-7.316 12.343-125.51 7.881-159.632 4.037-34.122 3.844-152.316 8.306-159.632-4.037-9.045-15.25 28.918-29.214 45.783-34.415-34.92-29.539-51.059-70.445-51.059-101.792 0 0-33.334 54.134-44.859 52.741-5.37-.65-12.424-29.644 9.347-99.704 10.261-33.024 21.995-60.478 40.144-105.779C60.683 98.063 108.982.006 224 0c113.737.006 163.156 96.133 160.264 214.963 18.118 45.223 29.912 72.85 40.144 105.778 21.768 70.06 14.716 99.053 9.346 99.704z"/></svg></a>
                 </div>
             
 
             
                 <div class="share-item qzone">
                     
-                    <a href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://hkvim.com/windows-setup/windows-setup/&amp;title=The%20ultimate%20Emacs%20hacking%20tutorial%20in%20Windows%2010%20WSL%202&amp;summary=Do%20you%20think%20Emacs%27s%20performance%20in%20windows%20is%20bad?%20Do%20you%20really%20want%20to%20use%20a%20native%20Speed%20Emacs%20in%20Windows?%20Do%20you%20hate%20the%20unnatural%20path%20transition%20between%20windows%20convention%20and%20Linux%20convention?%20Do%20you%20feel%20frustrated%20when%20you%20try%20to%20install%20and%20configure%20Emacs%20in%20WSL?%20Do%20you%20just%20want%20to%20taste%20the%20power%20of%20Emacs%20running%20in%20WSL%202?%0a%20This%20tutorial%20may%20help%20you%20:%29%0aWhat%20is%20WSL?%20%20Earlier%20on%20August%202,%202016,%20Microsoft%20released%20Windows%20Subsystem%20for%20Linux%20%28WSL%29,%20enabling%20the%20native%20way%20to%20run%20Linux%20Tools%20in%20Windows%2010%20and%20Windows%20Server%202019.%0a%20In%20May%202019,%20WSL%202%20was%20introduced,%20by%20importing%20the%20Real%20Linux%20Kernel%20through%20Hyper-V%20features%20%28in%20a%20Virtual%20Machine%20Environment%29,%20providing%20the%20users%20with%20the%20full%20&amp;%20immerse%20way%20to%20work%20with%20Linux%20under%20windows,%20with%2020%20times%20the%20read/write%20performances%20of%20WSL%201.%0a%20For%20Windows%20Emacs%20Users,%20here%20are%20some%20advantages/disadvantages%20for%20you%20to%20consider%20before%20switching%20the%20WSL%202:&amp;pics=https://hkvim.com/icons/apple-touch-icon.png&amp;site=Damon%20Chan%27s%20Blog" title="Share on Qzone" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon qzone-icon"><path d="M23.985 9.202c-.032-.099-.127-.223-.334-.258-.207-.036-7.351-1.406-7.351-1.406s-.105-.022-.198-.07c-.092-.047-.127-.167-.127-.167S12.447.956 12.349.77C12.25.583 12.104.532 12 .532c-.104 0-.251.051-.349.238-.098.186-3.626 6.531-3.626 6.531s-.035.12-.128.167c-.092.047-.197.07-.197.07S.556 8.908.348 8.943c-.208.036-.302.16-.333.258a.477.477 0 0 0 .125.449l5.362 5.49s.072.08.119.172c.016.104.005.21.005.21s-1.189 7.242-1.22 7.45.075.369.159.43c.083.062.233.106.421.013.189-.093 6.812-3.261 6.812-3.261s.098-.044.201-.061c.103-.017.201.061.201.061s6.623 3.168 6.812 3.261c.188.094.338.049.421-.013a.463.463 0 0 0 .159-.43c-.021-.14-.93-5.677-.93-5.677.876-.54 1.425-1.039 1.849-1.747-2.594.969-6.006 1.717-9.415 1.866-.915.041-2.41.097-3.473-.015-.678-.071-1.17-.144-1.243-.438-.053-.215.054-.46.545-.831a2640.5 2640.5 0 0 1 2.861-2.155c1.285-.968 3.559-2.47 3.559-2.731 0-.285-2.144-.781-4.037-.781-1.945 0-2.275.132-2.811.168-.488.034-.769.005-.804-.138-.06-.248.183-.389.588-.568.709-.314 1.86-.594 1.984-.626.194-.052 3.082-.805 5.618-.535 1.318.14 3.244.668 3.244 1.276 0 .342-1.721 1.494-3.225 2.597-1.149.843-2.217 1.561-2.217 1.688 0 .342 3.533 1.241 6.689 1.01l.003-.022c.048-.092.119-.172.119-.172l5.362-5.49a.477.477 0 0 0 .127-.449z"/></svg></a>
+                    <a href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://elecming.com/windows-setup/windows-setup/&amp;title=The%20ultimate%20Emacs%20hacking%20tutorial%20in%20Windows%2010%20WSL%202&amp;summary=Do%20you%20think%20Emacs%27s%20performance%20in%20windows%20is%20bad?%20Do%20you%20really%20want%20to%20use%20a%20native%20Speed%20Emacs%20in%20Windows?%20Do%20you%20hate%20the%20unnatural%20path%20transition%20between%20windows%20convention%20and%20Linux%20convention?%20Do%20you%20feel%20frustrated%20when%20you%20try%20to%20install%20and%20configure%20Emacs%20in%20WSL?%20Do%20you%20just%20want%20to%20taste%20the%20power%20of%20Emacs%20running%20in%20WSL%202?%0a%20This%20tutorial%20may%20help%20you%20:%29%0aWhat%20is%20WSL?%20%20Earlier%20on%20August%202,%202016,%20Microsoft%20released%20Windows%20Subsystem%20for%20Linux%20%28WSL%29,%20enabling%20the%20native%20way%20to%20run%20Linux%20Tools%20in%20Windows%2010%20and%20Windows%20Server%202019.%0a%20In%20May%202019,%20WSL%202%20was%20introduced,%20by%20importing%20the%20Real%20Linux%20Kernel%20through%20Hyper-V%20features%20%28in%20a%20Virtual%20Machine%20Environment%29,%20providing%20the%20users%20with%20the%20full%20&amp;%20immerse%20way%20to%20work%20with%20Linux%20under%20windows,%20with%2020%20times%20the%20read/write%20performances%20of%20WSL%201.%0a%20For%20Windows%20Emacs%20Users,%20here%20are%20some%20advantages/disadvantages%20for%20you%20to%20consider%20before%20switching%20the%20WSL%202:&amp;pics=https://elecming.com/icons/apple-touch-icon.png&amp;site=Damon%20Chan%27s%20Blog" title="Share on Qzone" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon qzone-icon"><path d="M23.985 9.202c-.032-.099-.127-.223-.334-.258-.207-.036-7.351-1.406-7.351-1.406s-.105-.022-.198-.07c-.092-.047-.127-.167-.127-.167S12.447.956 12.349.77C12.25.583 12.104.532 12 .532c-.104 0-.251.051-.349.238-.098.186-3.626 6.531-3.626 6.531s-.035.12-.128.167c-.092.047-.197.07-.197.07S.556 8.908.348 8.943c-.208.036-.302.16-.333.258a.477.477 0 0 0 .125.449l5.362 5.49s.072.08.119.172c.016.104.005.21.005.21s-1.189 7.242-1.22 7.45.075.369.159.43c.083.062.233.106.421.013.189-.093 6.812-3.261 6.812-3.261s.098-.044.201-.061c.103-.017.201.061.201.061s6.623 3.168 6.812 3.261c.188.094.338.049.421-.013a.463.463 0 0 0 .159-.43c-.021-.14-.93-5.677-.93-5.677.876-.54 1.425-1.039 1.849-1.747-2.594.969-6.006 1.717-9.415 1.866-.915.041-2.41.097-3.473-.015-.678-.071-1.17-.144-1.243-.438-.053-.215.054-.46.545-.831a2640.5 2640.5 0 0 1 2.861-2.155c1.285-.968 3.559-2.47 3.559-2.731 0-.285-2.144-.781-4.037-.781-1.945 0-2.275.132-2.811.168-.488.034-.769.005-.804-.138-.06-.248.183-.389.588-.568.709-.314 1.86-.594 1.984-.626.194-.052 3.082-.805 5.618-.535 1.318.14 3.244.668 3.244 1.276 0 .342-1.721 1.494-3.225 2.597-1.149.843-2.217 1.561-2.217 1.688 0 .342 3.533 1.241 6.689 1.01l.003-.022c.048-.092.119-.172.119-.172l5.362-5.49a.477.477 0 0 0 .127-.449z"/></svg></a>
                 </div>
             
 
@@ -2191,7 +2084,7 @@ COMMENT Local Variables&#xa0;&#xa0;&#xa0;<span class="tags"><span>ARCHIVE</span>
     var typeNumber = 0;
     var errorCorrectionLevel = 'L';
     var qr = qrcode(typeNumber, errorCorrectionLevel);
-    qr.addData('https:\/\/hkvim.com\/windows-setup\/windows-setup\/');
+    qr.addData('https:\/\/elecming.com\/windows-setup\/windows-setup\/');
     qr.make();
     document.getElementById('qrcode-img').innerHTML = qr.createImgTag();
 </script>
@@ -2244,7 +2137,7 @@ COMMENT Local Variables&#xa0;&#xa0;&#xa0;<span class="tags"><span>ARCHIVE</span>
             
     <footer id="footer" class="footer">
         <div class="footer-inner">
-            <div class="site-info">©&nbsp;2020–2021&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon footer-icon"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>&nbsp;Damon Chan</div><div class="site-copyright"><a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a></div>
+            <div class="site-info">©&nbsp;2020–2025&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon footer-icon"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>&nbsp;Damon Chan</div><div class="site-copyright"><a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a></div>
 
             
     
@@ -2254,6 +2147,14 @@ COMMENT Local Variables&#xa0;&#xa0;&#xa0;<span class="tags"><span>ARCHIVE</span>
                     <a href="mailto:elecming@gmail.com" target="_blank" rel="external noopener" title="Email"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon social-icon"><path d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z"/></svg></a>
                 </li><li class="socials-item">
                     <a href="https://github.com/chenyanming" target="_blank" rel="external noopener" title="GitHub"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon social-icon"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+                </li><li class="socials-item">
+                    <a href="https://medium.com/@elecming" target="_blank" rel="external noopener" title="Medium"></a>
+                </li><li class="socials-item">
+                    <a href="https://x.com/elecming" target="_blank" rel="external noopener" title="X"></a>
+                </li><li class="socials-item">
+                    <a href="https://substack.com/@elecming" target="_blank" rel="external noopener" title="Substack"></a>
+                </li><li class="socials-item">
+                    <a href="https://www.reddit.com/user/DR_MING/" target="_blank" rel="external noopener" title="Reddit"></a>
                 </li></ul>
     
 
