@@ -919,8 +919,6 @@
         
 
         
-            <div id="disqus_thread"></div>
-        
 
         
 
@@ -993,37 +991,6 @@
 
 
     
-
-        
-            <script>
-    function loadComments() {
-        if (!document.getElementById('disqus_thread')) {
-            return;
-        }
-        if (typeof DISQUS === 'undefined') {
-            const disqus_config = function() {
-                this.page.url = 'https:\/\/elecming.com\/post\/20200823-calibredb\/';
-                this.page.identifier = '\/post\/20200823-calibredb\/';
-                this.page.title = 'Calibredb － Emacs 的电子书管理方案';
-            };
-            (function() {
-                const d = document, s = d.createElement('script'); s.async = true;
-                s.src = 'https://elecming.disqus.com/embed.js';
-                s.setAttribute('data-timestamp', +new Date());
-                (d.head || d.body).appendChild(s);
-            })();
-        } else {
-            DISQUS.reset({
-                reload: true,
-                config: function() {
-                    this.page.url = 'https:\/\/elecming.com\/post\/20200823-calibredb\/';
-                    this.page.identifier = '\/post\/20200823-calibredb\/';
-                    this.page.title = 'Calibredb － Emacs 的电子书管理方案';
-                }
-            });
-        }
-    }
-</script>
 
         
 

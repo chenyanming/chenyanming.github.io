@@ -2143,8 +2143,6 @@ PS:</p>
         
 
         
-            <div id="disqus_thread"></div>
-        
 
         
 
@@ -2217,37 +2215,6 @@ PS:</p>
 
 
     
-
-        
-            <script>
-    function loadComments() {
-        if (!document.getElementById('disqus_thread')) {
-            return;
-        }
-        if (typeof DISQUS === 'undefined') {
-            const disqus_config = function() {
-                this.page.url = 'https:\/\/elecming.com\/post\/windows-setup\/';
-                this.page.identifier = '\/post\/windows-setup\/';
-                this.page.title = 'The ultimate Emacs hacking tutorial in Windows 10 WSL 2';
-            };
-            (function() {
-                const d = document, s = d.createElement('script'); s.async = true;
-                s.src = 'https://elecming.disqus.com/embed.js';
-                s.setAttribute('data-timestamp', +new Date());
-                (d.head || d.body).appendChild(s);
-            })();
-        } else {
-            DISQUS.reset({
-                reload: true,
-                config: function() {
-                    this.page.url = 'https:\/\/elecming.com\/post\/windows-setup\/';
-                    this.page.identifier = '\/post\/windows-setup\/';
-                    this.page.title = 'The ultimate Emacs hacking tutorial in Windows 10 WSL 2';
-                }
-            });
-        }
-    }
-</script>
 
         
 

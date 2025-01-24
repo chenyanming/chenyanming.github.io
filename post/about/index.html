@@ -872,8 +872,6 @@ I love Programming, writing, and sharing interesting ideas. I believe only the i
         
 
         
-            <div id="disqus_thread"></div>
-        
 
         
 
@@ -946,37 +944,6 @@ I love Programming, writing, and sharing interesting ideas. I believe only the i
 
 
     
-
-        
-            <script>
-    function loadComments() {
-        if (!document.getElementById('disqus_thread')) {
-            return;
-        }
-        if (typeof DISQUS === 'undefined') {
-            const disqus_config = function() {
-                this.page.url = 'https:\/\/elecming.com\/post\/about\/';
-                this.page.identifier = '\/post\/about\/';
-                this.page.title = 'About';
-            };
-            (function() {
-                const d = document, s = d.createElement('script'); s.async = true;
-                s.src = 'https://elecming.disqus.com/embed.js';
-                s.setAttribute('data-timestamp', +new Date());
-                (d.head || d.body).appendChild(s);
-            })();
-        } else {
-            DISQUS.reset({
-                reload: true,
-                config: function() {
-                    this.page.url = 'https:\/\/elecming.com\/post\/about\/';
-                    this.page.identifier = '\/post\/about\/';
-                    this.page.title = 'About';
-                }
-            });
-        }
-    }
-</script>
 
         
 
