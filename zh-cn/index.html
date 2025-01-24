@@ -675,6 +675,37 @@
     
 
         
+            <script>
+    function loadComments() {
+        if (!document.getElementById('disqus_thread')) {
+            return;
+        }
+        if (typeof DISQUS === 'undefined') {
+            const disqus_config = function() {
+                this.page.url = 'https:\/\/elecming.com\/zh-cn\/';
+                this.page.identifier = '\/zh-cn\/';
+                this.page.title = 'Damon Chan 的博客';
+            };
+            (function() {
+                const d = document, s = d.createElement('script'); s.async = true;
+                s.src = 'https://elecming.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        } else {
+            DISQUS.reset({
+                reload: true,
+                config: function() {
+                    this.page.url = 'https:\/\/elecming.com\/zh-cn\/';
+                    this.page.identifier = '\/zh-cn\/';
+                    this.page.title = 'Damon Chan 的博客';
+                }
+            });
+        }
+    }
+</script>
+
+        
 
         
 

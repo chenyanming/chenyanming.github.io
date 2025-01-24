@@ -22,7 +22,7 @@
     
     
         
-            <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js" defer></script><script src="/js/meme.min.adbe9d686ef9e91325626234d08b943679d6fd3fcc2b4e4912329b8afb4549d7.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js" defer></script><script src="/js/meme.min.7f22d0abc08771bbbf4aef185f6e755416de225aa1cd87fae2f8b5f7ed818e71.js"></script>
 
         
     
@@ -979,6 +979,8 @@ shrface 的样式（Faces）扩展到更多的非 org buffers。目前支持以�
         
 
         
+            <div id="disqus_thread"></div>
+        
 
         
 
@@ -1051,6 +1053,37 @@ shrface 的样式（Faces）扩展到更多的非 org buffers。目前支持以�
 
 
     
+
+        
+            <script>
+    function loadComments() {
+        if (!document.getElementById('disqus_thread')) {
+            return;
+        }
+        if (typeof DISQUS === 'undefined') {
+            const disqus_config = function() {
+                this.page.url = 'https:\/\/elecming.com\/post\/20200419195645-shrface_plus\/';
+                this.page.identifier = '\/post\/20200419195645-shrface_plus\/';
+                this.page.title = 'inherit-org，让非 org buffers 也拥有 org 的阅读体验';
+            };
+            (function() {
+                const d = document, s = d.createElement('script'); s.async = true;
+                s.src = 'https://elecming.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        } else {
+            DISQUS.reset({
+                reload: true,
+                config: function() {
+                    this.page.url = 'https:\/\/elecming.com\/post\/20200419195645-shrface_plus\/';
+                    this.page.identifier = '\/post\/20200419195645-shrface_plus\/';
+                    this.page.title = 'inherit-org，让非 org buffers 也拥有 org 的阅读体验';
+                }
+            });
+        }
+    }
+</script>
 
         
 
