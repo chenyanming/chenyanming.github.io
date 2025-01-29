@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Damon Chan&#39;s Blog</title>
     <subtitle type="html">I love Programming, writing, and sharing interesting ideas. I believe only the ideas that we actually live are of any value.</subtitle>
-    <updated>2025-01-30T00:52:42&#43;09:00</updated>
+    <updated>2025-01-30T00:57:20&#43;09:00</updated>
     <id>https://elecming.com/</id>
     <link rel="alternate" type="text/html" href="https://elecming.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://elecming.com/atom.xml" />
@@ -20,14 +20,14 @@
             <title type="text">How to show AI response and speak it out with AI sound engine in Emacs?</title>
             <link rel="alternate" type="text/html" href="https://elecming.com/post/20250130t003019--how-to-show-ai-response-and-speak-it-out-with-ai-sound-engine-in-emacs__ai_paw_technology/" />
             <id>https://elecming.com/post/20250130t003019--how-to-show-ai-response-and-speak-it-out-with-ai-sound-engine-in-emacs__ai_paw_technology/</id>
-            <updated>2025-01-30T00:50:47&#43;09:00</updated>
+            <updated>2025-01-30T00:57:03&#43;09:00</updated>
             <published>2025-01-30T00:00:00&#43;09:00</published>
             <author>
                     <name>Damon Chan</name>
                     <uri>https://elecming.com/</uri>
                     <email>elecming@gmail.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">By using this tatic, generate the AI result and speak with AI as well&amp;hellip;</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">By using this tatic, generate the AI result and speak with AI at the same time&amp;hellip;</summary>
             
             
             
