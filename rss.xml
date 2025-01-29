@@ -23,10 +23,61 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
         
-        <lastBuildDate>Sun, 26 Jan 2025 01:22:39 &#43;0900</lastBuildDate>
+        <lastBuildDate>Thu, 30 Jan 2025 00:52:42 &#43;0900</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://elecming.com/rss.xml" />
         
+        
+            <item>
+                <title>How to show AI response and speak it out with AI sound engine in Emacs?</title>
+                <link>https://elecming.com/post/20250130t003019--how-to-show-ai-response-and-speak-it-out-with-ai-sound-engine-in-emacs__ai_paw_technology/</link>
+                <guid isPermaLink="true">https://elecming.com/post/20250130t003019--how-to-show-ai-response-and-speak-it-out-with-ai-sound-engine-in-emacs__ai_paw_technology/</guid>
+                <pubDate>Thu, 30 Jan 2025 00:00:00 &#43;0900</pubDate>
+                
+                    <author>elecming@gmail.com (Damon Chan)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+                <description>By using this tatic, generate the AI result and speak with AI as well&amp;hellip;</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://elecming.com/categories/emacs/">Emacs</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://elecming.com/tags/ai/">ai</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://elecming.com/tags/paw/">paw</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://elecming.com/tags/emacs/">emacs</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>How to build a Personal Document Management System (PDMS) and why you need it</title>
