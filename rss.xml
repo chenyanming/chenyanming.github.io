@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
         
-        <lastBuildDate>Thu, 30 Jan 2025 00:57:20 &#43;0900</lastBuildDate>
+        <lastBuildDate>Sun, 09 Feb 2025 22:48:14 &#43;0900</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://elecming.com/rss.xml" />
         
@@ -413,8 +413,16 @@ shrface 的样式（Faces）扩展到更多的非 org buffers。目前支持以�
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
                 <description>&lt;h2 id=&#34;about-me&#34;&gt;About Me&lt;/h2&gt;
-&lt;p&gt;My name is Damon Chan. I live in Hong Kong.&lt;/p&gt;
-&lt;p&gt;I love Programming, writing, and sharing interesting ideas. I believe only the ideas that we actually live are of any value.&lt;/p&gt;</description>
+&lt;p&gt;My name is Damon Chan. I live in Tokyo.&lt;/p&gt;
+&lt;p&gt;I love Programming, writing, and sharing interesting ideas. I believe only the ideas that we actually live are of any value.&lt;/p&gt;
+&lt;h2 id=&#34;contact-me&#34;&gt;Contact Me&lt;/h2&gt;
+&lt;p&gt;Email: &lt;a href=&#34;mailto:elecming@gmail.com&#34;&gt;elecming@gmail.com&lt;/a&gt;
+Github: &lt;a href=&#34;https://github.com/chenyanming&#34;&gt;https://github.com/chenyanming&lt;/a&gt;
+X: &lt;a href=&#34;https://twitter.com/elecming&#34;&gt;https://twitter.com/elecming&lt;/a&gt;
+Reddit: &lt;a href=&#34;https://www.reddit.com/user/DR_MING/&#34;&gt;https://www.reddit.com/user/DR_MING/&lt;/a&gt;
+Medium: &lt;a href=&#34;https://medium.com/@elecming&#34;&gt;https://medium.com/@elecming&lt;/a&gt;
+Substack: &lt;a href=&#34;https://substack.com/@elecming&#34;&gt;https://substack.com/@elecming&lt;/a&gt;
+Telegram: &lt;a href=&#34;https://t.me/elecming&#34;&gt;https://t.me/elecming&lt;/a&gt;&lt;/p&gt;</description>
                 
                 
                 
