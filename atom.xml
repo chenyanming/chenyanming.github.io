@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Damon Chan&#39;s Blog</title>
     <subtitle type="html">I love Programming, writing, and sharing interesting ideas. I believe only the ideas that we actually live are of any value.</subtitle>
-    <updated>2025-02-09T22:48:14&#43;09:00</updated>
+    <updated>2025-02-09T22:51:01&#43;09:00</updated>
     <id>https://elecming.com/</id>
     <link rel="alternate" type="text/html" href="https://elecming.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://elecming.com/atom.xml" />
@@ -407,7 +407,7 @@ shrface 的样式（Faces）扩展到更多的非 org buffers。目前支持以�
             <title type="text">About</title>
             <link rel="alternate" type="text/html" href="https://elecming.com/post/about/" />
             <id>https://elecming.com/post/about/</id>
-            <updated>2025-02-09T22:48:01&#43;09:00</updated>
+            <updated>2025-02-09T22:50:50&#43;09:00</updated>
             <published>0001-01-01T00:00:00&#43;00:00</published>
             <author>
                     <name>Damon Chan</name>
@@ -416,15 +416,7 @@ shrface 的样式（Faces）扩展到更多的非 org buffers。目前支持以�
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;h2 id=&#34;about-me&#34;&gt;About Me&lt;/h2&gt;
 &lt;p&gt;My name is Damon Chan. I live in Tokyo.&lt;/p&gt;
-&lt;p&gt;I love Programming, writing, and sharing interesting ideas. I believe only the ideas that we actually live are of any value.&lt;/p&gt;
-&lt;h2 id=&#34;contact-me&#34;&gt;Contact Me&lt;/h2&gt;
-&lt;p&gt;Email: &lt;a href=&#34;mailto:elecming@gmail.com&#34;&gt;elecming@gmail.com&lt;/a&gt;
-Github: &lt;a href=&#34;https://github.com/chenyanming&#34;&gt;https://github.com/chenyanming&lt;/a&gt;
-X: &lt;a href=&#34;https://twitter.com/elecming&#34;&gt;https://twitter.com/elecming&lt;/a&gt;
-Reddit: &lt;a href=&#34;https://www.reddit.com/user/DR_MING/&#34;&gt;https://www.reddit.com/user/DR_MING/&lt;/a&gt;
-Medium: &lt;a href=&#34;https://medium.com/@elecming&#34;&gt;https://medium.com/@elecming&lt;/a&gt;
-Substack: &lt;a href=&#34;https://substack.com/@elecming&#34;&gt;https://substack.com/@elecming&lt;/a&gt;
-Telegram: &lt;a href=&#34;https://t.me/elecming&#34;&gt;https://t.me/elecming&lt;/a&gt;&lt;/p&gt;</summary>
+&lt;p&gt;I love programming, writing, and sharing thought-provoking ideas—believing that only the ideas we truly live have real value. An Emacs hacker at heart and an entrepreneur in spirit, I turn curiosity into creation and ideas into impact.&lt;/p&gt;</summary>
             
             
             
