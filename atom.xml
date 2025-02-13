@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Damon Chan&#39;s Blog</title>
     <subtitle type="html">I love Programming, writing, and sharing interesting ideas. I believe only the ideas that we actually live are of any value.</subtitle>
-    <updated>2025-02-09T22:51:01&#43;09:00</updated>
+    <updated>2025-02-13T20:32:06&#43;09:00</updated>
     <id>https://elecming.com/</id>
     <link rel="alternate" type="text/html" href="https://elecming.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://elecming.com/atom.xml" />
@@ -16,6 +16,46 @@
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights>
     <generator uri="https://gohugo.io/" version="0.142.0">Hugo</generator>
+        <entry>
+            <title type="text">How I manage documents if all of them in one flat folder using calibredb.el</title>
+            <link rel="alternate" type="text/html" href="https://elecming.com/post/20250213t191758--how-i-manage-documents-if-all-of-them-in-one-flat-folder-using-calibredbel__emacs_technology/" />
+            <id>https://elecming.com/post/20250213t191758--how-i-manage-documents-if-all-of-them-in-one-flat-folder-using-calibredbel__emacs_technology/</id>
+            <updated>2025-02-13T20:31:49&#43;09:00</updated>
+            <published>2025-02-13T19:17:00&#43;09:00</published>
+            <author>
+                    <name>Damon Chan</name>
+                    <uri>https://elecming.com/</uri>
+                    <email>elecming@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">&lt;p&gt;You may not know: there is one type of metadata in Calibre, called folder metadata. It is also be used in elink device if you use calibre to transfer files to elink device. A hidden file named &lt;code&gt;.metadata.calibre&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Unlike the original database &lt;code&gt;metadata.db&lt;/code&gt;, metadata needs ebooks be resided inside a non-flat folder, while the &lt;code&gt;.metadata.calibre&lt;/code&gt; is a json file, and it has all the metadata for all documents/ebooks under one flat folder.&lt;/p&gt;</summary>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://elecming.com/tags/emacs/" term="emacs" label="emacs" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://elecming.com/tags/technology/" term="technology" label="technology" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">How to show AI response and speak it out with AI sound engine in Emacs?</title>
             <link rel="alternate" type="text/html" href="https://elecming.com/post/20250130t003019--how-to-show-ai-response-and-speak-it-out-with-ai-sound-engine-in-emacs__ai_paw_technology/" />

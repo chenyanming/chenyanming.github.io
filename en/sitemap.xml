@@ -2,6 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://elecming.com/</loc>
+    <lastmod>2025-02-13T20:31:49+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://elecming.com/zh-tw/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://elecming.com/zh-cn/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://elecming.com/"
+                />
+  </url><url>
+    <loc>https://elecming.com/tags/emacs/</loc>
+    <lastmod>2025-02-13T20:31:49+09:00</lastmod>
+  </url><url>
+    <loc>https://elecming.com/post/20250213t191758--how-i-manage-documents-if-all-of-them-in-one-flat-folder-using-calibredbel__emacs_technology/</loc>
+    <lastmod>2025-02-13T20:31:49+09:00</lastmod>
+  </url><url>
+    <loc>https://elecming.com/post/</loc>
+    <lastmod>2025-02-13T20:31:49+09:00</lastmod>
+  </url><url>
+    <loc>https://elecming.com/tags/</loc>
+    <lastmod>2025-02-13T20:31:49+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://elecming.com/zh-tw/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://elecming.com/zh-cn/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://elecming.com/tags/"
+                />
+  </url><url>
+    <loc>https://elecming.com/tags/technology/</loc>
+    <lastmod>2025-02-13T20:31:49+09:00</lastmod>
+  </url><url>
     <loc>https://elecming.com/tags/ai/</loc>
     <lastmod>2025-01-30T00:57:03+09:00</lastmod>
   </url><url>
@@ -23,27 +71,6 @@
                 href="https://elecming.com/categories/"
                 />
   </url><url>
-    <loc>https://elecming.com/</loc>
-    <lastmod>2025-02-09T22:50:50+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://elecming.com/zh-tw/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://elecming.com/zh-cn/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://elecming.com/"
-                />
-  </url><url>
-    <loc>https://elecming.com/tags/emacs/</loc>
-    <lastmod>2025-01-30T00:57:03+09:00</lastmod>
-  </url><url>
     <loc>https://elecming.com/categories/emacs/</loc>
     <lastmod>2025-01-30T00:57:03+09:00</lastmod>
   </url><url>
@@ -52,27 +79,6 @@
   </url><url>
     <loc>https://elecming.com/tags/paw/</loc>
     <lastmod>2025-01-30T00:57:03+09:00</lastmod>
-  </url><url>
-    <loc>https://elecming.com/post/</loc>
-    <lastmod>2025-02-09T22:50:50+09:00</lastmod>
-  </url><url>
-    <loc>https://elecming.com/tags/</loc>
-    <lastmod>2025-01-30T00:57:03+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://elecming.com/zh-tw/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://elecming.com/zh-cn/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://elecming.com/tags/"
-                />
   </url><url>
     <loc>https://elecming.com/post/calibredb/</loc>
     <lastmod>2020-10-11T00:00:00+00:00</lastmod>

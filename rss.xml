@@ -23,10 +23,48 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
         
-        <lastBuildDate>Sun, 09 Feb 2025 22:51:01 &#43;0900</lastBuildDate>
+        <lastBuildDate>Thu, 13 Feb 2025 20:32:06 &#43;0900</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://elecming.com/rss.xml" />
         
+        
+            <item>
+                <title>How I manage documents if all of them in one flat folder using calibredb.el</title>
+                <link>https://elecming.com/post/20250213t191758--how-i-manage-documents-if-all-of-them-in-one-flat-folder-using-calibredbel__emacs_technology/</link>
+                <guid isPermaLink="true">https://elecming.com/post/20250213t191758--how-i-manage-documents-if-all-of-them-in-one-flat-folder-using-calibredbel__emacs_technology/</guid>
+                <pubDate>Thu, 13 Feb 2025 19:17:00 &#43;0900</pubDate>
+                
+                    <author>elecming@gmail.com (Damon Chan)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+                <description>&lt;p&gt;You may not know: there is one type of metadata in Calibre, called folder metadata. It is also be used in elink device if you use calibre to transfer files to elink device. A hidden file named &lt;code&gt;.metadata.calibre&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Unlike the original database &lt;code&gt;metadata.db&lt;/code&gt;, metadata needs ebooks be resided inside a non-flat folder, while the &lt;code&gt;.metadata.calibre&lt;/code&gt; is a json file, and it has all the metadata for all documents/ebooks under one flat folder.&lt;/p&gt;</description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://elecming.com/tags/emacs/">emacs</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://elecming.com/tags/technology/">technology</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>How to show AI response and speak it out with AI sound engine in Emacs?</title>
