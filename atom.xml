@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Damon Chan&#39;s Blog</title>
     <subtitle type="html">I love Programming, writing, and sharing interesting ideas. I believe only the ideas that we actually live are of any value.</subtitle>
-    <updated>2025-02-13T20:32:06&#43;09:00</updated>
+    <updated>2025-02-15T01:43:23&#43;09:00</updated>
     <id>https://elecming.com/</id>
     <link rel="alternate" type="text/html" href="https://elecming.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://elecming.com/atom.xml" />
@@ -20,7 +20,7 @@
             <title type="text">How I manage documents if all of them in one flat folder using calibredb.el</title>
             <link rel="alternate" type="text/html" href="https://elecming.com/post/20250213t191758--how-i-manage-documents-if-all-of-them-in-one-flat-folder-using-calibredbel__emacs_technology/" />
             <id>https://elecming.com/post/20250213t191758--how-i-manage-documents-if-all-of-them-in-one-flat-folder-using-calibredbel__emacs_technology/</id>
-            <updated>2025-02-13T20:31:49&#43;09:00</updated>
+            <updated>2025-02-15T01:30:24&#43;09:00</updated>
             <published>2025-02-13T19:17:00&#43;09:00</published>
             <author>
                     <name>Damon Chan</name>
@@ -447,7 +447,7 @@ shrface 的样式（Faces）扩展到更多的非 org buffers。目前支持以�
             <title type="text">About</title>
             <link rel="alternate" type="text/html" href="https://elecming.com/post/about/" />
             <id>https://elecming.com/post/about/</id>
-            <updated>2025-02-09T22:50:50&#43;09:00</updated>
+            <updated>2025-02-15T01:37:44&#43;09:00</updated>
             <published>0001-01-01T00:00:00&#43;00:00</published>
             <author>
                     <name>Damon Chan</name>
